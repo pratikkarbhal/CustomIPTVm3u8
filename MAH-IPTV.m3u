@@ -50,25 +50,13 @@ https://dplus.gammacdn.workers.dev/videos/113.m3u8
 #EXTINF:-1 tvg-id="872" tvg-name="SONY YAY{SONYLIV}" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Kids", SONY YAY
 https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Discovery_Channel_English.png" group-title="Infotainment", Discovery HD
-https://dplus.gammacdn.workers.dev/videos/95.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Animal_Planet_HD.png" group-title="Infotainment", Animal Planet HD
-https://dplus.gammacdn.workers.dev/videos/99.m3u8
-#EXTINF:-1 tvg-id="BCC Earth" tvg-name="BCCE" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_Earth_logo.png" group-title="Infotainment", BCC Earth
-https://d206rrc0yoxllg.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-staxtq3pp4n9p/115c93cf-88fa-4c4d-86c1-ca74ac6969d7/3.m3u8
-#EXTINF:-1 tvg-logo="https://www.sefiles.net/merchant/5511/images/site/logo_ae_300x80.png" group-title="Infotainment", Adventure Earth
-https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="INBA4900027A9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900027A9_20220427T054651SQUARE.png_20220427054652.png" group-title="Infotainment", Real Wild
-https://i.mjh.nz/SamsungTVPlus/INBA4900027A9.m3u8
-#EXTINF:-1 tvg-id="INBA4900023QJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900023QJ_20220427T054726SQUARE.png_20220427054727.png" group-title="Infotainment" , Xplore
-http://xlpore-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/History_18_Hindi.png" group-title="Entertainment", History TV18 HD
+http://line.gofast-tv.me/play/live.php?mac=00:1A:79:ef:28:c8&stream=156018&extension=m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi HD
+http://line.gofast-tv.me/play/live.php?mac=00:1A:79:ef:28:c8&stream=282022&extension=m3u8
+#EXTINF:-1 tvg-id="ZeeTH" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
+http://line.gofast-tv.me/play/live.php?mac=00:1A:79:ef:28:c8&stream=1117978&extension=m3u8
 
-
-#EXTINF:-1 tvg-logo="https://www.powernationtv.com/images/brands/pn_icon_sm.png" group-title="Infotainment", PowerNation TV
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991291
-https://i.mjh.nz/SamsungTVPlus/USBD2500017XQ.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e7/Motorvision%2B_Logo_2023.svg" group-title="Infotainment", MotorVision
-https://api-ott.motorvision.tv/loggingmediaurlpassthrough/a.m3u8?&version=12&id=1199&partner=klowdtv&device_model=&device_width=1920&device_height=1080&yob=&gender=&us_privacy=1---&gdpr=&gdpr_consent=&device_language=&is_lat=
 
 #EXTINF:-1 tvg-id="DroneTV" tvg-name="DroneTV Shorts" tvg-logo="https://cdn.airvuz.com/assets/header/airvuz-drone-logo.png" group-title="Infotainment", DroneTV Shorts
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/440.m3u8
@@ -84,12 +72,18 @@ https://documentaryplus-documentaryplus-3-us.ono.wurl.tv/playlist.m3u8
 https://da8eq3kpws4wh.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-qwqfh4ecsmf30/7f1c6847-381e-477d-9bda-b62f74400ee0/3.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/62/Modern_Marvels_title_credits.jpg" group-title="Infotainment", Modern Marvels
 https://277b8244.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Um9rdV9Nb2Rlcm5NYXJ2ZWxzX0hMUw/playlist.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/History_18_Hindi.png" group-title="Entertainment", History TV18 HD
-http://line.gofast-tv.me/play/live.php?mac=00:1A:79:ef:28:c8&stream=156018&extension=m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi HD
-http://line.gofast-tv.me/play/live.php?mac=00:1A:79:ef:28:c8&stream=282022&extension=m3u8
-#EXTINF:-1 tvg-id="ZeeTH" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
-http://line.gofast-tv.me/play/live.php?mac=00:1A:79:ef:28:c8&stream=1117978&extension=m3u8
+#EXTINF:-1 tvg-logo="https://www.powernationtv.com/images/brands/pn_icon_sm.png" group-title="Infotainment", PowerNation TV
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991291
+https://i.mjh.nz/SamsungTVPlus/USBD2500017XQ.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e7/Motorvision%2B_Logo_2023.svg" group-title="Infotainment", MotorVision
+https://api-ott.motorvision.tv/loggingmediaurlpassthrough/a.m3u8?&version=12&id=1199&partner=klowdtv&device_model=&device_width=1920&device_height=1080&yob=&gender=&us_privacy=1---&gdpr=&gdpr_consent=&device_language=&is_lat=
+#EXTINF:-1 tvg-id="INBA4900023QJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900023QJ_20220427T054726SQUARE.png_20220427054727.png" group-title="Infotainment" , Xplore
+http://xlpore-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.sefiles.net/merchant/5511/images/site/logo_ae_300x80.png" group-title="Infotainment", Adventure Earth
+https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BCC Earth" tvg-name="BCCE" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_Earth_logo.png" group-title="Infotainment", BCC Earth
+https://d206rrc0yoxllg.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-staxtq3pp4n9p/115c93cf-88fa-4c4d-86c1-ca74ac6969d7/3.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Discovery_Channel_English.png" group-title="Infotainment", Discovery HD
+https://dplus.gammacdn.workers.dev/videos/95.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Animal_Planet_HD.png" group-title="Infotainment", Animal Planet HD
+https://dplus.gammacdn.workers.dev/videos/99.m3u8

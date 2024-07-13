@@ -8,6 +8,8 @@ https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/master_1.m3u
 #EXTINF:-1 tvg-id="INBD400001CP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400001CP_20240131T032544SQUARE.png_20240131032545.png" group-title="News" , Zee 24 Taas
 https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
 
+#EXTINF:-1 tvg-id="Marathibana" tvg-logo="https://i.imgur.com/y0VS4QN.png" group-title="Entertainment",Shemaroo Marathibana
+https://shemaroo.codeautoplay.workers.dev/?channel=shemaroomarathibana&codeby=nd
 #EXTINF:-1 tvg-id="FaktMarathi.in" tvg-logo="https://i.imgur.com/y0VS4QN.png" group-title="Entertainment",Fakt Marathi
 https://live-faktmarathi.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_Marathi_HD.png" group-title="Entertainment", Colors Marathi HD
@@ -39,7 +41,6 @@ http://line.gofast-tv.me/play/live.php?mac=00:1A:79:ef:28:c8&stream=156018&exten
 https://dai.google.com/linear/hls/event/I2phC6tgTDuJngxw9gJgPw/master.m3u8
 http://line.gofast-tv.me/play/live.php?mac=00:1A:79:ef:28:c8&stream=282022&extension=m3u8
 #EXTINF:-1 tvg-id="ZeeTH" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
-https://shemaroo.codeautoplay.workers.dev/?channel=shemaroomarathibana&codeby=nd
 http://line.gofast-tv.me/play/live.php?mac=00:1A:79:ef:28:c8&stream=1117978&extension=m3u8
 
 

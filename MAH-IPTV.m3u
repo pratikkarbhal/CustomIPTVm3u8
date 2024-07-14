@@ -10,6 +10,7 @@ https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
 
 #EXTINF:-1 tvg-id="Marathibana" tvg-logo="https://i.imgur.com/U63jUUq.png" group-title="Entertainment",Shemaroo Marathibana
 https://shemaroo.codeautoplay.workers.dev/?channel=shemaroomarathibana&codeby=nd
+https://cdn.live.shemaroome.com/marathibana/smil:marathibanaadp.smil/chunklist_b1628000_sleng.m3u8?hdnts=st%3D1720935914%7Eexp%3D1720946714%7Eacl%3D*%7Edata%3Dtestdata%7Ehmac%3D8999cc439393d3f83714e357ecf95ee829bbbbbd4f27cb9726116fe3f5b4b48f
 #EXTINF:-1 tvg-id="FaktMarathi.in" tvg-logo="https://i.imgur.com/y0VS4QN.png" group-title="Entertainment",Fakt Marathi
 https://live-faktmarathi.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_Marathi_HD.png" group-title="Entertainment", Colors Marathi HD

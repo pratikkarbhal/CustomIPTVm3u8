@@ -10,7 +10,6 @@ https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
 
 #EXTINF:-1 tvg-id="Marathibana" tvg-logo="https://i.imgur.com/U63jUUq.png" group-title="Entertainment",Shemaroo Marathibana
 https://shemaroo.codeautoplay.workers.dev/?channel=shemaroomarathibana&codeby=nd
-https://cdn.live.shemaroome.com/marathibana/smil:marathibanaadp.smil/chunklist_b1628000_sleng.m3u8?hdnts=st%3D1720935914%7Eexp%3D1720946714%7Eacl%3D*%7Edata%3Dtestdata%7Ehmac%3D8999cc439393d3f83714e357ecf95ee829bbbbbd4f27cb9726116fe3f5b4b48f
 #EXTINF:-1 tvg-id="FaktMarathi.in" tvg-logo="https://i.imgur.com/y0VS4QN.png" group-title="Entertainment",Fakt Marathi
 https://live-faktmarathi.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_Marathi_HD.png" group-title="Entertainment", Colors Marathi HD
@@ -39,10 +38,8 @@ https://dplus.gammacdn.workers.dev/videos/113.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/History_18_Hindi.png" group-title="Entertainment", History TV18 HD
 http://line.gofast-tv.me/play/live.php?mac=00:1A:79:ef:28:c8&stream=156018&extension=m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi HD
-https://dai.google.com/linear/hls/event/I2phC6tgTDuJngxw9gJgPw/master.m3u8
 http://line.gofast-tv.me/play/live.php?mac=00:1A:79:ef:28:c8&stream=282022&extension=m3u8
 #EXTINF:-1 tvg-id="ZeeTH" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
-https://redirect.oryzic.workers.dev/
 http://line.gofast-tv.me/play/live.php?mac=00:1A:79:ef:28:c8&stream=1117978&extension=m3u8
 
 

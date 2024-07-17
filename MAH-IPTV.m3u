@@ -26,6 +26,19 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="9XJhakaas.in" tvg-logo="https://i.imgur.com/aZ0f85I.png" group-title="Music",9x Jhakaas
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
 
+#EXTINF:-1 tvg-id="SonySab" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Entertainment",Sony Sab
+http://103.120.172.74:4400
+#EXTINF:-1 tvg-id="SonySet" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Entertainment",Sony Entertainment
+http://103.120.172.74:5000
+http://103.72.179.30:1935/GECHindi/SONY.stream_720p/Playlist.m3u8
+http://lifetvbd.xyz:8080/live/3363696/3363696/2799.m3u8
+#EXTINF:-1 tvg-id="StarPlus" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Entertainment",Star Plus
+http://103.120.172.74:4300
+http://lifetvbd.xyz:8080/live/3363696/3363696/123.m3u8
+#EXTINF:-1 tvg-id="Colors" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Entertainment",Colors
+http://103.120.172.74:1070
+http://lifetvbd.xyz:8080/live/3363696/3363696/1504.m3u8
+
 #EXTINF:-1 tvg-id="SonyMax" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Movies",Sony Max HD
 http://lifetvbd.xyz:8080/live/3363696/3363696/2800.m3u8
 #EXTINF:-1 tvg-id="ZeeCinema" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Movies",Zee Cinema HD
@@ -37,13 +50,6 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="BollywoodHD" tvg-logo="https://a.jsrdn.com/hls/23145/bollywood-prime/logo_20231219_184906_65.png" group-title="Movies",Bollywood HD
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/43e99595-3ab3-4f82-a828-0d32dc308c98/0.m3u8
 
-
-#EXTINF:-1 tvg-id="SonySet" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Entertainment",Sony Set HD
-http://lifetvbd.xyz:8080/live/3363696/3363696/2799.m3u8
-#EXTINF:-1 tvg-id="StarPlus" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Entertainment",Star Plus
-http://lifetvbd.xyz:8080/live/3363696/3363696/123.m3u8
-#EXTINF:-1 tvg-id="Colors" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Entertainment",Colors HD
-http://lifetvbd.xyz:8080/live/3363696/3363696/1504.m3u8
 
 
 #EXTINF:-1 tvg-id="INBD1300021X3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300021X3_20231011T013448SQUARE.png_20231011013449.png" group-title="Kids" , Pogo
@@ -67,10 +73,6 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 https://watchmojo-1-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RT" tvg-name="Rotten Tomatoes" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5b/Rotten_Tomatoes.svg" group-title="Infotainment", Rotten Tomatoes (EU)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00491-fandango-rottentomatoesroku-rokuus/playlist.m3u8
-#EXTINF:-1 tvg-id="NASA" tvg-name="NASA.US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b4/NASA_TV.svg" group-title="Infotainment", NASA TV Live
-https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
-#EXTINF:-1 tvg-logo="https://helios-i.mashable.com/imagery/roundup-products/03i7YGjGhVgcnzv5MoErkEn/product-image.fit_lpad.size_672x378.v1630424422.png" group-title="Infotainment", Documentary+
-https://documentaryplus-documentaryplus-3-us.ono.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="HistoryTV" tvg-name="HistoryTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/1200px-History_Logo.svg.png" group-title="Infotainment", HistoryTV 365
 https://da8eq3kpws4wh.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-qwqfh4ecsmf30/7f1c6847-381e-477d-9bda-b62f74400ee0/3.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/62/Modern_Marvels_title_credits.jpg" group-title="Infotainment", Modern Marvels

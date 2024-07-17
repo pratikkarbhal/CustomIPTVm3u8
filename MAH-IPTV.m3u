@@ -33,8 +33,8 @@ http://103.120.172.74:5000
 http://103.72.179.30:1935/GECHindi/SONY.stream_720p/Playlist.m3u8
 http://lifetvbd.xyz:8080/live/3363696/3363696/2799.m3u8
 #EXTINF:-1 tvg-id="StarPlus" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Entertainment",Star Plus
-http://103.120.172.74:4300
 http://lifetvbd.xyz:8080/live/3363696/3363696/123.m3u8
+http://103.120.172.74:4300
 #EXTINF:-1 tvg-id="Colors" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Entertainment",Colors
 http://103.120.172.74:1070
 http://lifetvbd.xyz:8080/live/3363696/3363696/1504.m3u8

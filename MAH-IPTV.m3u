@@ -26,24 +26,24 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="9XJhakaas.in" tvg-logo="https://i.imgur.com/aZ0f85I.png" group-title="Music",9x Jhakaas
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SonySab" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Entertainment",Sony Sab
+#EXTINF:-1 tvg-id="SonySab" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SAB.png" group-title="Entertainment",Sony Sab
 http://103.120.172.74:4400
-#EXTINF:-1 tvg-id="SonySet" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Entertainment",Sony Entertainment
+#EXTINF:-1 tvg-id="SonySet" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SD.png" group-title="Entertainment",Sony Entertainment
 http://103.120.172.74:5000
 http://103.72.179.30:1935/GECHindi/SONY.stream_720p/Playlist.m3u8
 http://lifetvbd.xyz:8080/live/3363696/3363696/2799.m3u8
-#EXTINF:-1 tvg-id="Colors" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Entertainment",Colors
+#EXTINF:-1 tvg-id="Colors" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_HD.png" group-title="Entertainment",Colors
 http://lifetvbd.xyz:8080/live/3363696/3363696/1504.m3u8
 http://103.120.172.74:1070
 
 
-#EXTINF:-1 tvg-id="SonyMax" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Movies",Sony Max HD
+#EXTINF:-1 tvg-id="SonyMax" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_Max_SD.png" group-title="Movies",Sony Max HD
 http://lifetvbd.xyz:8080/live/3363696/3363696/2800.m3u8
-#EXTINF:-1 tvg-id="ZeeCinema" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Movies",Zee Cinema HD
+#EXTINF:-1 tvg-id="ZeeCinema" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Cinema.png" group-title="Movies",Zee Cinema HD
 http://lifetvbd.xyz:8080/live/3363696/3363696/1.m3u8
-#EXTINF:-1 tvg-id="&Pictures" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Movies",&Pictures HD
+#EXTINF:-1 tvg-id="&Pictures" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/And_Pictures.png" group-title="Movies",&Pictures HD
 http://lifetvbd.xyz:8080/live/3363696/3363696/4.m3u8
-#EXTINF:-1 tvg-id="Shemaroo Bollywood" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Shemaroo_TV_Logo.png" group-title="Movies",Shemaroo Bollywood
+#EXTINF:-1 tvg-id="Shemaroo Bollywood" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/shemaroobollywood.png" group-title="Movies",Shemaroo Bollywood
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/master.m3u8
 #EXTINF:-1 tvg-id="BollywoodHD" tvg-logo="https://a.jsrdn.com/hls/23145/bollywood-prime/logo_20231219_184906_65.png" group-title="Movies",Bollywood HD
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/43e99595-3ab3-4f82-a828-0d32dc308c98/0.m3u8

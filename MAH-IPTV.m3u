@@ -10,8 +10,12 @@ https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
 
 #EXTINF:-1 tvg-id="Marathibana" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Shemaroo_MarathiBana.png" group-title="Entertainment",Shemaroo Marathibana
 https://shemaroo.codeautoplay.workers.dev/?channel=shemaroomarathibana&codeby=nd
+http://14.102.123.50:9080/play/a0ll
 #EXTINF:-1 tvg-id="FaktMarathi.in" tvg-logo="https://i.imgur.com/y0VS4QN.png" group-title="Entertainment",Fakt Marathi
 https://live-faktmarathi.akamaized.net/liveabr/playlist.m3u8
+http://14.102.123.50:9080/play/a0lp
+#EXTINF:-1,ZEE Chitra Mandir
+http://14.102.123.50:9080/play/a0n2
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi
 http://103.120.172.74:1040
 http://line.gofast-tv.me:80/play/live.php?mac=00:1A:79:ef:28:c8&stream=282022&extension=m3u8
@@ -35,10 +39,29 @@ http://lifetvbd.xyz:8080/live/3363696/3363696/2799.m3u8
 #EXTINF:-1 tvg-id="Colors" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_HD.png" group-title="Entertainment",Colors
 http://lifetvbd.xyz:8080/live/3363696/3363696/1504.m3u8
 http://103.120.172.74:1070
+#EXTINF:-1,Big Magic
+http://14.102.123.50:9080/play/a0m7
+#EXTINF:-1,SHEMAROO TV
+http://14.102.123.50:9080/play/a0lt
 
-
+#EXTINF:-1,STAR GOLD THRILLS
+http://14.102.123.50:9080/play/a0mg
+#EXTINF:-1,Cineplex Bollywood
+http://14.102.123.50:9080/play/a0m0
+#EXTINF:-1,RISHTEY CINEPLEX
+http://14.102.123.50:9080/play/a0m4
+#EXTINF:-1,Goldmines Bollywood
+http://14.102.123.50:9080/play/a0m1
+#EXTINF:-1,ZEE ANMOL CINEMA
+http://14.102.123.50:9080/play/a0me
+#EXTINF:-1,ZEE ANMOL CINEMA 2
+http://14.102.123.50:9080/play/a0ts
+#EXTINF:-1,ZEE ACTION
+http://14.102.123.50:9080/play/a0tr
 #EXTINF:-1 tvg-id="Shemaroo Bollywood" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/shemaroobollywood.png" group-title="Movies",Shemaroo Bollywood
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/master.m3u8
+#EXTINF:-1,B4U Movies
+http://14.102.123.50:9080/play/a0lc
 #EXTINF:-1 tvg-id="BollywoodHD" tvg-logo="https://a.jsrdn.com/hls/23145/bollywood-prime/logo_20231219_184906_65.png" group-title="Movies",Bollywood HD
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/43e99595-3ab3-4f82-a828-0d32dc308c98/0.m3u8
 
@@ -52,6 +75,10 @@ https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-
 https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Discovery_Kids_2.png" group-title="Kids", Discovery Kids
 https://dplus.gammacdn.workers.dev/videos/113.m3u8
+#EXTINF:-1,MANORANJAN GRAND
+http://14.102.123.50:9080/play/a0lk
+#EXTINF:-1,CHUMBAK TV
+http://14.102.123.50:9080/play/a0mj
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/History_18_Hindi.png" group-title="Entertainment", History TV18 HD
 http://line.gofast-tv.me:80/play/live.php?mac=00:1A:79:ef:28:c8&stream=156018&extension=m3u8

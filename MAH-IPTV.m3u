@@ -18,7 +18,6 @@ http://14.102.123.50:9080/play/a0lp
 http://14.102.123.50:9080/play/a0n2
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi
 http://103.120.172.74:1040
-http://line.gofast-tv.me:80/play/live.php?mac=00:1A:79:ef:28:c8&stream=282022&extension=m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_Marathi_HD.png" group-title="Entertainment", Colors Marathi HD
 https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_ColorsMarathiHD/JCHLS/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Star_Pravah_2023.png/300px-Star_Pravah_2023.png" group-title="Entertainment", Star Pravah
@@ -80,10 +79,9 @@ http://14.102.123.50:9080/play/a0lk
 #EXTINF:-1,CHUMBAK TV
 http://14.102.123.50:9080/play/a0mj
 
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/History_18_Hindi.png" group-title="Entertainment", History TV18 HD
-http://line.gofast-tv.me:80/play/live.php?mac=00:1A:79:ef:28:c8&stream=156018&extension=m3u8
-#EXTINF:-1 tvg-id="ZeeTH" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
-http://line.gofast-tv.me:80/play/live.php?mac=00:1A:79:ef:28:c8&stream=1117978&extension=m3u8
+#INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/History_18_Hindi.png" group-title="Entertainment", History TV18 HD
+#INF:-1 tvg-id="ZeeTH" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
+
 
 
 #EXTINF:-1 tvg-id="DroneTV" tvg-name="DroneTV Shorts" tvg-logo="https://cdn.airvuz.com/assets/header/airvuz-drone-logo.png" group-title="Infotainment", DroneTV Shorts

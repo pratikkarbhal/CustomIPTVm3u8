@@ -16,7 +16,7 @@ http://14.102.123.50:9080/play/a0ll
 https://live-faktmarathi.akamaized.net/liveabr/playlist.m3u8
 https://t.ly/f3U8A
 http://14.102.123.50:9080/play/a0lp
-#EXTINF:-1 tvg-id="" tvg-name="Zee Talkies HD" tvg-logo="" group-title="RUSHIKESH LIVE TV SERVICE",Zee Talkies HD
+#EXTINF:-1 tvg-id="ZeeTH" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
 https://t.ly/-zL5P
 #EXTINF:-1,ZEE Chitra Mandir
 http://14.102.123.50:9080/play/a0n2
@@ -109,8 +109,6 @@ http://14.102.123.50:9080/play/a0lk
 http://14.102.123.50:9080/play/a0mj
 
 #INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/History_18_Hindi.png" group-title="Entertainment", History TV18 HD
-#INF:-1 tvg-id="ZeeTH" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
-
 
 
 #EXTINF:-1 tvg-id="DroneTV" tvg-name="DroneTV Shorts" tvg-logo="https://cdn.airvuz.com/assets/header/airvuz-drone-logo.png" group-title="Infotainment", DroneTV Shorts

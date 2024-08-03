@@ -54,6 +54,8 @@ http://lifetvbd.xyz:8080/live/3363696/3363696/1504.m3u8
 http://14.102.123.50:9080/play/a0m7
 #EXTINF:-1,SHEMAROO TV
 http://14.102.123.50:9080/play/a0lt
+#EXTINF:-1,Star Sports select HD 1
+http://103.120.172.74:1030
 
 
 #INF:-1 tvg-id="andpictureshd.in" tvg-name="&pictures (4K)" tvg-logo="http://openboxv8s.com/india/and_pictures_in.jpg" group-title="Entertainment",&pictures

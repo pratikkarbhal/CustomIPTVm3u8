@@ -7,35 +7,29 @@ https://nw18live.cdn.jio.com/bpk-tv/News18_Lokmat_NW18_MOB/output01/News18_Lokma
 https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/master_1.m3u8
 #EXTINF:-1 tvg-id="INBD400001CP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400001CP_20240131T032544SQUARE.png_20240131032545.png" group-title="News" , Zee 24 Taas
 https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
-https://t.ly/gIIPh
 
 #EXTINF:-1 tvg-id="Marathibana" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Shemaroo_MarathiBana.png" group-title="Entertainment",Shemaroo Marathibana
 https://shemaroo.codeautoplay.workers.dev/?channel=shemaroomarathibana&codeby=nd
 http://14.102.123.50:9080/play/a0ll
 #EXTINF:-1 tvg-id="FaktMarathi.in" tvg-logo="https://i.imgur.com/y0VS4QN.png" group-title="Entertainment",Fakt Marathi
 https://live-faktmarathi.akamaized.net/liveabr/playlist.m3u8
-https://t.ly/f3U8A
 http://14.102.123.50:9080/play/a0lp
 #EXTINF:-1 tvg-id="ZeeTH" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
 http://14.102.123.50:9080/play/a06l
-https://t.ly/-zL5P
 #EXTINF:-1,ZEE Chitra Mandir
 http://14.102.123.50:9080/play/a0n2
-#EXTINF:-1 tvg-id="" tvg-name="Zee Yuva" tvg-logo="" group-title="RUSHIKESH LIVE TV SERVICE",Zee Yuva
-https://t.ly/sAdMK
+#INF:-1 tvg-id="" tvg-name="Zee Yuva" tvg-logo="" group-title="Entertainment",Zee Yuva
+
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi
 http://14.102.123.50:9080/play/a06n
 http://103.120.172.74:1040
-https://shorturl.at/4RCsa
-#EXTINF:-1 tvg-id="" tvg-name="Sony Marathi" tvg-logo="" group-title="RUSHIKESH LIVE TV SERVICE",Sony Marathi
-https://shorturl.at/Y1Bsu
+#INF:-1 tvg-id="" tvg-name="Sony Marathi" tvg-logo="" group-title="Entertainment",Sony Marathi
+
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_Marathi_HD.png" group-title="Entertainment", Colors Marathi HD
 https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_ColorsMarathiHD/JCHLS/index.m3u8
-https://shorturl.at/jh3Ak
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Star_Pravah_2023.png/300px-Star_Pravah_2023.png" group-title="Entertainment", Star Pravah
-http://xtv.ooo:8080/89998887/66600076/244514
-http://103.120.172.74:1060
 http://14.102.123.50:9080/play/a074
+http://103.120.172.74:1060
 
 
 #EXTINF:-1 channel-id="samsung-INBC1500014OM" tvg-id="INBC1500014OM" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC1500014OM_20240131T032453SQUARE.png_20240131032453.png" group-title="Music" , Maiboli
@@ -44,37 +38,34 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
 
 #EXTINF:-1 tvg-id="SonySab" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SAB.png" group-title="Entertainment",Sony Sab
-http://xtv.ooo:8080/89998887/66600076/109953
 http://103.120.172.74:4400
 #EXTINF:-1 tvg-id="SonySet" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SD.png" group-title="Entertainment",Sony Entertainment
-http://xtv.ooo:8080/89998887/66600076/109948
-http://103.120.172.74:5000
 http://103.72.179.30:1935/GECHindi/SONY.stream_720p/Playlist.m3u8
+http://103.120.172.74:5000
 http://lifetvbd.xyz:8080/live/3363696/3363696/2799.m3u8
 #EXTINF:-1 tvg-id="Colors" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_HD.png" group-title="Entertainment",Colors
-http://xtv.ooo:8080/89998887/66600076/109947
-http://lifetvbd.xyz:8080/live/3363696/3363696/1504.m3u8
 http://103.120.172.74:1070
-#EXTINF:-1 tvg-id="starplushd.in" tvg-name="Star Plus (4K)" tvg-logo="https://static.epg.best/nz/StarPlusHindi.nz.png" group-title="RUSHIKESH LIVE TV SERVICE",Star Plus (4K)
-http://xtv.ooo:8080/89998887/66600076/109949
-#EXTINF:-1 tvg-id="" tvg-name="ZEE TV (4K)" tvg-logo="http://openboxv8s.com/india/zee_tv.jpg" group-title="RUSHIKESH LIVE TV SERVICE",ZEE TV (4K)
-http://xtv.ooo:8080/89998887/66600076/109950
+http://lifetvbd.xyz:8080/live/3363696/3363696/1504.m3u8
+#INF:-1 tvg-id="starplushd.in" tvg-name="Star Plus (4K)" tvg-logo="https://static.epg.best/nz/StarPlusHindi.nz.png" group-title="Entertainment",Star Plus
+
+#INF:-1 tvg-id="" tvg-name="ZEE TV (4K)" tvg-logo="http://openboxv8s.com/india/zee_tv.jpg" group-title="Entertainment",ZEE TV
+
 #EXTINF:-1,Big Magic
 http://14.102.123.50:9080/play/a0m7
 #EXTINF:-1,SHEMAROO TV
 http://14.102.123.50:9080/play/a0lt
 
 
-#EXTINF:-1 tvg-id="andpictureshd.in" tvg-name="&pictures (4K)" tvg-logo="http://openboxv8s.com/india/and_pictures_in.jpg" group-title="RUSHIKESH LIVE TV SERVICE",&pictures (4K)
-http://xtv.ooo:8080/89998887/66600076/109955
-#EXTINF:-1 tvg-id="sonymaxhd.in" tvg-name="SONY MAX (4K)" tvg-logo="http://openboxv8s.com/india/sony_max_tv_in.jpg" group-title="RUSHIKESH LIVE TV SERVICE",SONY MAX (4K)
-http://xtv.ooo:8080/89998887/66600076/109957
-#EXTINF:-1 tvg-id="zeecinemaindiahd.in" tvg-name="ZEE CINEMA (4K)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Zee_Cinema_logo.png" group-title="RUSHIKESH LIVE TV SERVICE",ZEE CINEMA (4K)
-http://xtv.ooo:8080/89998887/66600076/109958
-#EXTINF:-1 tvg-id="stargoldhd.in" tvg-name="Star GOLD (4K)" tvg-logo="http://openboxv8s.com/india/star_gold_hd.jpg" group-title="RUSHIKESH LIVE TV SERVICE",Star GOLD (4K)
-http://xtv.ooo:8080/89998887/66600076/109959
-#EXTINF:-1 tvg-id="" tvg-name="Star Gold Select (4K)" tvg-logo="http://openboxv8s.com/india/star_gold_hd.jpg" group-title="RUSHIKESH LIVE TV SERVICE",Star Gold Select (4K)
-http://xtv.ooo:8080/89998887/66600076/109960
+#INF:-1 tvg-id="andpictureshd.in" tvg-name="&pictures (4K)" tvg-logo="http://openboxv8s.com/india/and_pictures_in.jpg" group-title="Entertainment",&pictures
+
+#INF:-1 tvg-id="sonymaxhd.in" tvg-name="SONY MAX (4K)" tvg-logo="http://openboxv8s.com/india/sony_max_tv_in.jpg" group-title="Entertainment",SONY MAX
+
+#INF:-1 tvg-id="zeecinemaindiahd.in" tvg-name="ZEE CINEMA (4K)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Zee_Cinema_logo.png" group-title="Entertainment",ZEE CINEMA
+
+#INF:-1 tvg-id="stargoldhd.in" tvg-name="Star GOLD (4K)" tvg-logo="http://openboxv8s.com/india/star_gold_hd.jpg" group-title="Entertainment",Star GOLD
+
+#INF:-1 tvg-id="" tvg-name="Star Gold Select (4K)" tvg-logo="http://openboxv8s.com/india/star_gold_hd.jpg" group-title="Entertainment",Star Gold Select
+
 #EXTINF:-1,STAR GOLD THRILLS
 http://14.102.123.50:9080/play/a0mg
 #EXTINF:-1,Cineplex Bollywood

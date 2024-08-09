@@ -5,7 +5,7 @@ https://abplivetv.akamaized.net/hls/live/2043011/manjha/master.m3u8
 https://nw18live.cdn.jio.com/bpk-tv/News18_Lokmat_NW18_MOB/output01/News18_Lokmat_NW18_MOB-audio_98835_eng=98800-video=2702400.m3u8
 #EXTINF:-1 tvg-id="NDTV-Marathi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/NDTV_logo.svg/300px-NDTV_logo.svg.png" group-title="News",NDTV Marathi
 https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/master_1.m3u8
-#EXTINF:-1 tvg-id="INBD400001CP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400001CP_20240131T032544SQUARE.png_20240131032545.png" group-title="News" , Zee 24 Taas
+#EXTINF:-1 channel-id="2" tvg-id="INBD400001CP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400001CP_20240131T032544SQUARE.png_20240131032545.png" group-title="News" , Zee 24 Taas
 https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
 
 #EXTINF:-1 tvg-id="Marathibana" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Shemaroo_MarathiBana.png" group-title="Entertainment",Shemaroo Marathibana

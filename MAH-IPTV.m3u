@@ -57,6 +57,7 @@ http://lifetvbd.xyz:8080/live/3363696/3363696/1504.m3u8
 #EXTINF:-1 tvg-id="starplushd.in" tvg-name="Star Plus" tvg-logo="https://static.epg.best/nz/StarPlusHindi.nz.png" group-title="Entertainment",Star Plus
 http://14.102.123.50:9080/play/a0pc
 #EXTINF:-1 tvg-id="" tvg-name="ZEE TV" tvg-logo="http://openboxv8s.com/india/zee_tv.jpg" group-title="Entertainment",ZEE TV
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeetv1/default/index.m3u8
 http://14.102.123.50:9080/play/a04u
 #EXTINF:-1,Big Magic
 http://14.102.123.50:9080/play/a0m7
@@ -87,13 +88,15 @@ http://14.102.123.50:9080/play/a0me
 http://14.102.123.50:9080/play/a0ts
 
 #EXTINF:-1 tvg-id="BollywoodHD" tvg-logo="https://a.jsrdn.com/hls/23145/bollywood-prime/logo_20231219_184906_65.png" group-title="Movies",Bollywood HD
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/43e99595-3ab3-4f82-a828-0d32dc308c98/0.m3u8
 
-#INF:-1 tvg-id="andpictureshd.in" tvg-name="&pictures (4K)" tvg-logo="http://openboxv8s.com/india/and_pictures_in.jpg" group-title="Entertainment",&pictures
-
+#EXTINF:-1 tvg-id="andpictureshd.in" tvg-name="&pictures (4K)" tvg-logo="http://openboxv8s.com/india/and_pictures_in.jpg" group-title="Entertainment",&pictures
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd1/default/andpictureshd1.m3u8
 #EXTINF:-1 tvg-id="sonymaxhd.in" tvg-name="SONY MAX" tvg-logo="http://openboxv8s.com/india/sony_max_tv_in.jpg" group-title="Entertainment",SONY MAX
 http://14.102.123.50:9080/play/a042
 #EXTINF:-1 tvg-id="zeecinemaindiahd.in" tvg-name="ZEE CINEMA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Zee_Cinema_logo.png" group-title="Entertainment",ZEE CINEMA
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd1/default/zeecinemahd1.m3u8
 http://14.102.123.50:9080/play/a055
 #INF:-1 tvg-id="stargoldhd.in" tvg-name="Star GOLD (4K)" tvg-logo="http://openboxv8s.com/india/star_gold_hd.jpg" group-title="Entertainment",Star GOLD
 

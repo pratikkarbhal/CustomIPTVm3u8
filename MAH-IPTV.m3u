@@ -25,17 +25,13 @@ http://14.102.123.50:9080/play/a0n2
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi
 http://103.120.172.74:1040
-http://14.102.123.50:9080/play/a06n
 #INF:-1 tvg-id="" tvg-name="Sony Marathi" tvg-logo="" group-title="Entertainment",Sony Marathi
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_Marathi_HD.png" group-title="Entertainment", Colors Marathi HD
 https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_ColorsMarathiHD/JCHLS/index.m3u8
-http://14.102.123.50:9080/play/a0oj
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Star_Pravah_2023.png/300px-Star_Pravah_2023.png" group-title="Entertainment", Star Pravah
 http://103.120.172.74:1060
-http://14.102.123.50:9080/play/a074
-#EXTINF:-1,Sun Marathi
-http://14.102.123.50:9080/play/a0l6
+#INF:-1,Sun Marathi
 
 
 
@@ -46,7 +42,6 @@ https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01
 
 #EXTINF:-1 tvg-id="SonySab" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SAB.png" group-title="Entertainment",Sony Sab
 http://103.120.172.74:4400
-http://14.102.123.50:9080/play/a0k7
 #EXTINF:-1 tvg-id="SonySet" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SD.png" group-title="Entertainment",Sony Entertainment
 http://103.72.179.30:1935/GECHindi/SONY.stream_720p/Playlist.m3u8
 http://103.120.172.74:5000
@@ -58,13 +53,11 @@ http://lifetvbd.xyz:8080/live/3363696/3363696/1504.m3u8
 http://14.102.123.50:9080/play/a0pc
 #EXTINF:-1 tvg-id="" tvg-name="ZEE TV" tvg-logo="http://openboxv8s.com/india/zee_tv.jpg" group-title="Entertainment",ZEE TV
 https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeetv1/default/index.m3u8
-http://14.102.123.50:9080/play/a04u
 #EXTINF:-1,Big Magic
 http://14.102.123.50:9080/play/a0m7
 #EXTINF:-1,SHEMAROO TV
 http://14.102.123.50:9080/play/a0lt
 #EXTINF:-1,Star Sports select HD 1
-http://14.102.123.50:9080/play/a05e
 http://103.120.172.74:1030
 
 
@@ -97,7 +90,6 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd1/default/andpicturesh
 http://14.102.123.50:9080/play/a042
 #EXTINF:-1 tvg-id="zeecinemaindiahd.in" tvg-name="ZEE CINEMA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Zee_Cinema_logo.png" group-title="Entertainment",ZEE CINEMA
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd1/default/zeecinemahd1.m3u8
-http://14.102.123.50:9080/play/a055
 #INF:-1 tvg-id="stargoldhd.in" tvg-name="Star GOLD (4K)" tvg-logo="http://openboxv8s.com/india/star_gold_hd.jpg" group-title="Entertainment",Star GOLD
 
 #EXTINF:-1 tvg-id="" tvg-name="Star Gold Select" tvg-logo="http://openboxv8s.com/india/star_gold_hd.jpg" group-title="Entertainment",Star Gold Select
@@ -113,10 +105,7 @@ https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-
 https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Discovery_Kids_2.png" group-title="Kids", Discovery Kids
 https://dplus.gammacdn.workers.dev/videos/113.m3u8
-#EXTINF:-1,MANORANJAN GRAND
-http://14.102.123.50:9080/play/a0lk
-#EXTINF:-1,Super Hungama
-http://14.102.123.50:9080/play/a0jj
+#INF:-1,Super Hungama
 
 #INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/History_18_Hindi.png" group-title="Entertainment", History TV18 HD
 
@@ -140,7 +129,6 @@ http://xlpore-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.sefiles.net/merchant/5511/images/site/logo_ae_300x80.png" group-title="Infotainment", Adventure Earth
 https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BCC Earth" tvg-name="BCCE" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_Earth_logo.png" group-title="Infotainment", BCC Earth
-http://14.102.123.50:9080/play/a05b
 https://d206rrc0yoxllg.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-staxtq3pp4n9p/115c93cf-88fa-4c4d-86c1-ca74ac6969d7/3.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Discovery_Channel_English.png" group-title="Infotainment", Discovery HD
 https://dplus.gammacdn.workers.dev/videos/95.m3u8

@@ -15,8 +15,8 @@ https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8
 https://live-faktmarathi.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-epgurl="https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=0" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetalkieshd1/default/zeetelkieshd1.m3u8
-#EXTINF:-1,ZEE Chitra Mandir
-http://14.102.123.50:9080/play/a0n2
+#INF:-1,ZEE Chitra Mandir
+
 #INF:-1 tvg-id="" tvg-name="Zee Yuva" tvg-logo="" group-title="Entertainment",Zee Yuva
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi
@@ -38,40 +38,26 @@ https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01
 
 #EXTINF:-1 tvg-id="SonySab" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SAB.png" group-title="Entertainment",Sony Sab
 http://103.120.172.74:4400
-#EXTINF:-1 tvg-id="SonySet" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SD.png" group-title="Entertainment",Sony Entertainment
-http://103.120.172.74:5000
-http://lifetvbd.xyz:8080/live/3363696/3363696/2799.m3u8
-#EXTINF:-1 tvg-id="Colors" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_HD.png" group-title="Entertainment",Colors
-http://103.120.172.74:1070
-http://lifetvbd.xyz:8080/live/3363696/3363696/1504.m3u8
-#INF:-1 tvg-id="starplushd.in" tvg-name="Star Plus" tvg-logo="https://static.epg.best/nz/StarPlusHindi.nz.png" group-title="Entertainment",Star Plus
-
-#EXTINF:-1 tvg-id="" tvg-name="ZEE TV" tvg-logo="http://openboxv8s.com/india/zee_tv.jpg" group-title="Entertainment",ZEE TV
-https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeetv1/default/index.m3u8
-#INF:-1,Big Magic
-
 #EXTINF:-1,Star Sports select HD 1
 http://103.120.172.74:1030
-
-
-#EXTINF:-1 tvg-id="Shemaroo Bollywood" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/shemaroobollywood.png" group-title="Movies",Shemaroo Bollywood
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/master.m3u8
-#EXTINF:-1,STAR GOLD THRILLS
-http://14.102.123.50:9080/play/a0mg
 
 
 
 #EXTINF:-1 tvg-id="BollywoodHD" tvg-logo="https://a.jsrdn.com/hls/23145/bollywood-prime/logo_20231219_184906_65.png" group-title="Movies",Bollywood HD
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/43e99595-3ab3-4f82-a828-0d32dc308c98/0.m3u8
-
+#EXTINF:-1 tvg-id="Shemaroo Bollywood" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/shemaroobollywood.png" group-title="Movies",Shemaroo Bollywood
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/master.m3u8
+#EXTINF:-1 tvg-id="zeecinemaindiahd.in" tvg-name="ZEE CINEMA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Zee_Cinema_logo.png" group-title="Entertainment",ZEE CINEMA
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd1/default/zeecinemahd1.m3u8
 #EXTINF:-1 tvg-id="andpictureshd.in" tvg-name="&pictures (4K)" tvg-logo="http://openboxv8s.com/india/and_pictures_in.jpg" group-title="Entertainment",&pictures
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd1/default/andpictureshd1.m3u8
 #INF:-1 tvg-id="sonymaxhd.in" tvg-name="SONY MAX" tvg-logo="http://openboxv8s.com/india/sony_max_tv_in.jpg" group-title="Entertainment",SONY MAX
-#EXTINF:-1 tvg-id="zeecinemaindiahd.in" tvg-name="ZEE CINEMA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Zee_Cinema_logo.png" group-title="Entertainment",ZEE CINEMA
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd1/default/zeecinemahd1.m3u8
+
 #INF:-1 tvg-id="stargoldhd.in" tvg-name="Star GOLD (4K)" tvg-logo="http://openboxv8s.com/india/star_gold_hd.jpg" group-title="Entertainment",Star GOLD
 
+#EXTINF:-1,STAR GOLD THRILLS
+http://14.102.123.50:9080/play/a0mg
 
 
 

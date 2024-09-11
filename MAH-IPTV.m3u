@@ -17,8 +17,8 @@ https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
 https://live-faktmarathi.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-epgurl="https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=0" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetalkieshd1/default/zeetelkieshd1.m3u8
-#INF:-1,ZEE Chitra Mandir
-
+#EXTINF:-1,ZEE Chitra Mandir
+http://172.105.123.238:18002/play/a022
 #INF:-1 tvg-id="" tvg-name="Zee Yuva" tvg-logo="" group-title="Entertainment",Zee Yuva
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi
@@ -29,8 +29,8 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeemarathi1/default/zeemarathi1.m3u
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Star_Pravah_2023.png/300px-Star_Pravah_2023.png" group-title="Entertainment", Star Pravah
 http://103.120.172.74:1060
-#INF:-1,Sun Marathi
-
+#EXTINF:-1,Sun Marathi
+http://172.105.123.238:18002/play/a007
 
 
 #EXTINF:-1 channel-id="1" tvg-id="INBC1500014OM" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC1500014OM_20240131T032453SQUARE.png_20240131032453.png" group-title="Music" , Maiboli
@@ -40,6 +40,8 @@ https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01
 
 #EXTINF:-1 tvg-id="SonySab" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SAB.png" group-title="Entertainment",Sony Sab
 http://103.120.172.74:4400
+#EXTINF:-1,Sony Wah
+http://172.105.123.238:18002/play/a01q
 #EXTINF:-1,Star Sports select HD 1
 http://103.120.172.74:1030
 
@@ -59,7 +61,9 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd1/default/andpicturesh
 #INF:-1 tvg-id="stargoldhd.in" tvg-name="Star GOLD (4K)" tvg-logo="http://openboxv8s.com/india/star_gold_hd.jpg" group-title="Entertainment",Star GOLD
 
 #EXTINF:-1,STAR GOLD THRILLS
-http://14.102.123.50:9080/play/a0mg
+http://172.105.123.238:18002/play/a01h
+#EXTINF:-1,Star Utsav Movies
+http://172.105.123.238:18002/play/a01n
 
 
 

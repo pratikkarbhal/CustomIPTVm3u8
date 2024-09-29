@@ -82,8 +82,8 @@ https://dplus.gammacdn.workers.dev/videos/113.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/440.m3u8
 #EXTINF:-1 tvg-id="WM" tvg-name="Watch Mojo" tvg-logo="https://www.watchmojo.com/2016/img/wm_logo3_2018.webp" group-title="Infotainment", Watch Mojo YouTube
 https://watchmojo-1-eu.xiaomi.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="RT" tvg-name="Rotten Tomatoes" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5b/Rotten_Tomatoes.svg" group-title="Infotainment", Rotten Tomatoes YouTube
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00491-fandango-rottentomatoesroku-rokuus/playlist.m3u8
+#INF:-1 tvg-id="RT" tvg-name="Rotten Tomatoes" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5b/Rotten_Tomatoes.svg" group-title="Infotainment", Rotten Tomatoes YouTube
+
 #EXTINF:-1 tvg-id="HistoryTV" tvg-name="HistoryTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/1200px-History_Logo.svg.png" group-title="Infotainment", HistoryTV 365
 https://da8eq3kpws4wh.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-qwqfh4ecsmf30/7f1c6847-381e-477d-9bda-b62f74400ee0/3.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/62/Modern_Marvels_title_credits.jpg" group-title="Infotainment", Modern Marvels

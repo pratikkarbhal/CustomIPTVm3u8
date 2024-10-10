@@ -38,8 +38,6 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="9XJhakaas.in" tvg-logo="https://i.imgur.com/aZ0f85I.png" group-title="Music",9x Jhakaas
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SonySab" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SAB.png" group-title="Entertainment",Sony Sab
-http://185.243.7.154:80/play/live.php?mac=00:1A:79:BD:60:0F&stream=156014&extension=ts&play_token=EbpKfavlf7
 #EXTINF:-1,Sony Wah
 http://172.105.123.238:18002/play/a01q
 #EXTINF:-1,Star Sports select HD 1
@@ -56,10 +54,6 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd1/default/zeecinemahd1.m3u8
 #EXTINF:-1 tvg-id="andpictureshd.in" tvg-name="&pictures (4K)" tvg-logo="http://openboxv8s.com/india/and_pictures_in.jpg" group-title="Entertainment",&pictures
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd1/default/andpictureshd1.m3u8
-#EXTINF:-1 tvg-id="sonymaxhd.in" tvg-name="SONY MAX" tvg-logo="http://openboxv8s.com/india/sony_max_tv_in.jpg" group-title="Entertainment",SONY MAX
-http://185.243.7.154:80/play/live.php?mac=00:1A:79:BD:60:0F&stream=156013&extension=ts&play_token=ClARAXo3Qv
-#EXTINF:-1 tvg-id="stargoldhd.in" tvg-name="Star GOLD (4K)" tvg-logo="http://openboxv8s.com/india/star_gold_hd.jpg" group-title="Entertainment",Star GOLD
-http://185.243.7.154:80/play/live.php?mac=00:1A:79:BD:60:0F&stream=155969&extension=ts&play_token=y6tGfVDLgl
 #EXTINF:-1,STAR GOLD THRILLS
 http://172.105.123.238:18002/play/a01h
 #EXTINF:-1,Star Utsav Movies
@@ -67,17 +61,12 @@ http://172.105.123.238:18002/play/a01n
 
 
 
-#INF:-1 tvg-id="INBD1300021X3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300021X3_20231011T013448SQUARE.png_20231011013449.png" group-title="Kids" , Sony Yay
-http://185.243.7.154:80/play/live.php?mac=00:1A:79:BD:60:0F&stream=156089&extension=ts&play_token=g8ELS6Sizr
+
 #EXTINF:-1 tvg-id="INBD13000205L" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD13000205L_20231115T014715SQUARE.png_20231115014716.png" group-title="Kids" , Cartoon Network
 https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/cb553d1e786c648b93d43d63d5ef41a4d3246ad3032e90703dff06c231901d468ca2f9d3f537b63619d714af3f5e2f0e0433db18dd6511b6802eea0e6d287f09cfcceb2ada861317b3c60e383ebb281700ab0941d8380220dcec5759d438b0340446b00a230f338fbe51aa7e55978808821d57b189e5a4fd04706ded294fdfd20ffda8bd0c118d2ff9932372a75e26c7199604e6368ff19702cf69b66cc1168caa08baf212e7868bfa2a50c24d1bb2ccf90b774fb3833797c9936876b879294d1f6fb8c9cbfc4a7292524159fafadfbe37b04a80d165c94c3eb5158014a53e8e79a500a3a11ff3e4fbfe4c452babcd5f590aa5e1a98ba87a62f337b5f39bbd091c93944c2a5fa8718f3a353705d56f1c4b0b9a90d86276/82/640x360_1284800/index.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/sonic_Hindi.png" group-title="Kids", Disney
-http://185.243.7.154:80/play/live.php?mac=00:1A:79:BD:60:0F&stream=156000&extension=ts&play_token=ksoP2i8KVp
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Discovery_Kids_2.png" group-title="Kids", Discovery Kids
 https://dplus.gammacdn.workers.dev/videos/113.m3u8
 
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/History_18_Hindi.png" group-title="Entertainment", Super Hungama
-http://185.243.7.154:80/play/live.php?mac=00:1A:79:BD:60:0F&stream=1097624&extension=ts&play_token=vCph9ngQwk
 #EXTINF:-1 tvg-id="DroneTV" tvg-name="DroneTV Shorts" tvg-logo="https://cdn.airvuz.com/assets/header/airvuz-drone-logo.png" group-title="Infotainment", DroneTV Shorts
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/440.m3u8
 #EXTINF:-1 tvg-id="WM" tvg-name="Watch Mojo" tvg-logo="https://www.watchmojo.com/2016/img/wm_logo3_2018.webp" group-title="Infotainment", Watch Mojo YouTube
@@ -97,13 +86,7 @@ http://xlpore-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.sefiles.net/merchant/5511/images/site/logo_ae_300x80.png" group-title="Infotainment", Adventure Earth
 https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:0,HINDI| NAT GEO FHD
-http://185.243.7.154:80/play/live.php?mac=00:1A:79:BD:60:0F&stream=156011&extension=ts&play_token=b2Kmxdfjm1
-#EXTINF:0,HINDI| NAT GEO WILD FHD
-http://185.243.7.154:80/play/live.php?mac=00:1A:79:BD:60:0F&stream=155989&extension=ts&play_token=KJ2yrGq6uj
 
-#EXTINF:-1 tvg-id="BCC Earth" tvg-name="BCCE" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_Earth_logo.png" group-title="Infotainment", BCC Earth
-http://185.243.7.154:80/play/live.php?mac=00:1A:79:BD:60:0F&stream=156012&extension=ts&play_token=zkiQbXQR0f
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Discovery_Channel_English.png" group-title="Infotainment", Discovery HD
 https://dplus.gammacdn.workers.dev/videos/95.m3u8
 https://varun-iptv.netlify.app/m3u/discoveryhindi.m3u8

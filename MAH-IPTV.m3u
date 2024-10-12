@@ -43,6 +43,7 @@ http://tv.cloudcdn.me:80/live.ts?channelId=260&deviceMac=00:1A:79:0A:3B:2D
 #EXTINF:-1,Sony Wah
 http://172.105.123.238:18002/play/a01q
 #EXTINF:-1,Star Sports select HD 1
+ftp://192.168.1.1/Drive1_1/Bravia_Content/Despicable.Me.4.2024.720p.WEBRip.x264.AAC-[YTS.MX].mp4
 http://103.120.172.74:1030
 
 

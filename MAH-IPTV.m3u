@@ -19,7 +19,8 @@ https://live-faktmarathi.akamaized.net/liveabr/playlist.m3u8
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetalkieshd1/default/zeetelkieshd1.m3u8
 #EXTINF:-1,ZEE Chitra Mandir
 http://172.105.123.238:18002/play/a022
-#INF:-1 tvg-id="" tvg-name="Zee Yuva" tvg-logo="" group-title="Entertainment",Zee Yuva
+#EXTINF:-1 tvg-id="" tvg-name="Zee Yuva" tvg-logo="" group-title="Entertainment",Zee Yuva
+https://jiotvweb.online/app/live.php?id=414&e=.m3u8
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeemarathi1/default/zeemarathi1.m3u8

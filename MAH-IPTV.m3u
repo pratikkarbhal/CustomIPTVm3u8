@@ -7,25 +7,22 @@ https://nw18live.cdn.jio.com/bpk-tv/News18_Lokmat_NW18_MOB/output01/News18_Lokma
 https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/master_1.m3u8
 #EXTINF:-1, लोकशाही न्यूज
 https://see.lokshahi.live/live/index.m3u8
-#EXTINF:-1 tvg-logo="https://gumlet.assettype.com/saamtv/2021-06/147be8c3-59eb-4715-92db-47de06f2f545/saamtv_logo.png" group-title="News",साम मराठी
-https://live.wmncdn.net/saam/live.stream/chunks.m3u8
 #EXTINF:-1, [Not 24/7 Live] TV9 Marathi
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8
-#EXTINF:-1 channel-id="2" tvg-id="INBD400001CP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400001CP_20240131T032544SQUARE.png_20240131032545.png" group-title="News" , [Not 24/7 Live] Zee 24 Taas
-https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
+
 
 #INF:-1 tvg-id="Marathibana" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Shemaroo_MarathiBana.png" group-title="Entertainment",मराठीबाणा
 #EXTINF:-1 tvg-id="FaktMarathi.in" tvg-logo="https://i.imgur.com/y0VS4QN.png" group-title="Entertainment",फक्त मराठी
 https://live-faktmarathi.akamaized.net/liveabr/playlist.m3u8
-#EXTINF:-1 tvg-epgurl="https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=0" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetalkieshd1/default/zeetelkieshd1.m3u8
+#INF:-1 tvg-epgurl="https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=0" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
+
 #EXTINF:-1,ZEE Chitra Mandir
 http://172.105.123.238:18002/play/a022
 #EXTINF:-1 tvg-id="" tvg-name="Zee Yuva" tvg-logo="" group-title="Entertainment",Zee Yuva
 http://watchindia.net:8880/live/67913/97110/915.ts
 
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeemarathi1/default/zeemarathi1.m3u8
+#INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi
+
 #INF:-1 tvg-id="" tvg-name="Sony Marathi" tvg-logo="" group-title="Entertainment",Sony Marathi
 
 #INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_Marathi_HD.png" group-title="Entertainment", Colors Marathi HD
@@ -46,7 +43,6 @@ http://tv.cloudcdn.me:80/live.ts?channelId=260&deviceMac=00:1A:79:0A:3B:2D
 #EXTINF:-1,Sony Wah
 http://172.105.123.238:18002/play/a01q
 #EXTINF:-1,Star Sports select HD 1
-ftp://kajal:12345@192.168.1.1/Drive1_1/Bravia_Content/Despicable.Me.4.2024.720p.WEBRip.x264.AAC-[YTS.MX].mp4
 http://103.120.172.74:1030
 
 
@@ -91,8 +87,12 @@ https://api-ott.motorvision.tv/loggingmediaurlpassthrough/a.m3u8?&version=12&id=
 http://xlpore-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.sefiles.net/merchant/5511/images/site/logo_ae_300x80.png" group-title="Infotainment", Adventure Earth
 https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
-
-
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/DzZsrvqk/love-nature.png" group-title="Documentary", Love Nature 4K
+https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Hx1PS8kS/XBz4I65.png" group-title="Documentary", Discovery Science
+https://dplus.gammacdn.workers.dev/videos/96.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZqbG8DVf/download-4.jpg" group-title="Documentary", Discovery Turbo
+https://dplus.gammacdn.workers.dev/videos/98.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Discovery_Channel_English.png" group-title="Infotainment", Discovery HD
 https://dplus.gammacdn.workers.dev/videos/95.m3u8
 https://varun-iptv.netlify.app/m3u/discoveryhindi.m3u8

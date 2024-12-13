@@ -83,9 +83,8 @@ https://watchmojo-1-eu.xiaomi.wurl.tv/playlist.m3u8
 https://da8eq3kpws4wh.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-qwqfh4ecsmf30/7f1c6847-381e-477d-9bda-b62f74400ee0/3.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/62/Modern_Marvels_title_credits.jpg" group-title="Infotainment", Modern Marvels
 https://277b8244.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Um9rdV9Nb2Rlcm5NYXJ2ZWxzX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZqbG8DVf/download-4.jpg" group-title="Documentary", Discovery Turbo
-https://dplus.gammacdn.workers.dev/videos/98.m3u8
-https://varun-iptv.netlify.app/m3u/Discovery_Turbo.m3u8
+#INF:-1 tvg-logo="https://i.postimg.cc/ZqbG8DVf/download-4.jpg" group-title="Documentary", Discovery Turbo
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/RedBullTV.png",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.powernationtv.com/images/brands/pn_icon_sm.png" group-title="Infotainment", PowerNation TV
@@ -94,21 +93,21 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://api-ott.motorvision.tv/loggingmediaurlpassthrough/a.m3u8?&version=12&id=1199&partner=klowdtv&device_model=&device_width=1920&device_height=1080&yob=&gender=&us_privacy=1---&gdpr=&gdpr_consent=&device_language=&is_lat=
 #EXTINF:-1 tvg-id="INBA4900023QJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900023QJ_20220427T054726SQUARE.png_20220427054727.png" group-title="Infotainment" , Xplore
 http://xlpore-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Documentary",4K Travel
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/manifest.m3u8
+
 #EXTINF:-1 tvg-logo="https://www.sefiles.net/merchant/5511/images/site/logo_ae_300x80.png" group-title="Infotainment", Adventure Earth
 https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
 https://wildearth-plex.amagi.tv/masterR1080p.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Documentary",4K Travel
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/manifest.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/DzZsrvqk/love-nature.png" group-title="Documentary", Love Nature 4K
 https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Animal_Planet_HD.png" group-title="Infotainment", Animal Planet HD
-https://dplus.gammacdn.workers.dev/videos/99.m3u8
-https://varun-iptv.netlify.app/m3u/Animal_Planet.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Hx1PS8kS/XBz4I65.png" group-title="Documentary", Discovery Science
-https://dplus.gammacdn.workers.dev/videos/96.m3u8
-https://varun-iptv.netlify.app/m3u/Discovery_Science.m3u8
+#INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Animal_Planet_HD.png" group-title="Infotainment", Animal Planet HD
+
+#INF:-1 tvg-logo="https://i.postimg.cc/Hx1PS8kS/XBz4I65.png" group-title="Documentary", Discovery Science
+
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Discovery_Channel_English.png" group-title="Infotainment", Discovery HD
+https://cdn4.skygo.mn/live/disk1/Discovery_Asia/HLS-FTA/Discovery_Asia.m3u8
 https://dplus.gammacdn.workers.dev/videos/95.m3u8
 https://varun-iptv.netlify.app/m3u/discoveryhindi.m3u8
-https://cdn4.skygo.mn/live/disk1/Discovery_Asia/HLS-FTA/Discovery_Asia.m3u8
+

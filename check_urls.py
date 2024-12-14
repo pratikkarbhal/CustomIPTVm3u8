@@ -1,6 +1,6 @@
 import requests
 
-SOURCE_FILE = "playlist.m3u"  # M3U playlist file
+SOURCE_FILE = "https://github.com/pratikkarbhal/CustomIPTVm3u8/blob/main/MAH-IPTV.m3u?raw=true"  # M3U playlist file
 TIMEOUT = 10  # Timeout for each request in seconds
 
 def is_url_working(url):

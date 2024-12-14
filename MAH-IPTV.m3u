@@ -36,14 +36,14 @@ http://172.105.123.238:18002/play/a022
 http://172.105.123.238:18002/play/a007
 
 
-#EXTINF:-1 channel-id="1" tvg-id="INBC1500014OM" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC1500014OM_20240131T032453SQUARE.png_20240131032453.png" group-title="Music" , Maiboli
+#EXTINF:-1 channel-id="1" tvg-id="INBC1500014OM" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Maiboli.png" group-title="Music" , Maiboli
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/maiboli/master.m3u8
-#EXTINF:-1 tvg-id="9XJhakaas.in" tvg-logo="https://i.imgur.com/aZ0f85I.png" group-title="Music",9x Jhakaas
+#EXTINF:-1 tvg-id="9XJhakaas.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/9x_Jhakaas.png" group-title="Music",9x Jhakaas
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
 
-#EXTINF:-1,Sony Sab
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SAB.png" group-title="Entertainment", Sony Sab
 http://tv.cloudcdn.me:80/live.ts?channelId=260&deviceMac=00:1A:79:0A:3B:2D
-#EXTINF:-1,Sony Wah
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_Wah.png" group-title="Entertainment", Sony Wah
 http://172.105.123.238:18002/play/a01q
 
 

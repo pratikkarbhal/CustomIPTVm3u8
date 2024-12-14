@@ -1,9 +1,11 @@
 import requests
 
-SOURCE_FILE = "https://github.com/pratikkarbhal/CustomIPTVm3u8/blob/main/MAH-IPTV.m3u?raw=true"  # M3U playlist file
+# Define the file path in the repository
+SOURCE_FILE = "MAH-IPTV.m3u"  # Update with the relative path if needed
 TIMEOUT = 10  # Timeout for each request in seconds
 
 def is_url_working(url):
+    """Check if the given URL is reachable."""
     try:
         response = requests.head(url, timeout=TIMEOUT)
         return response.status_code == 200
@@ -11,6 +13,7 @@ def is_url_working(url):
         return False
 
 def check_and_update_m3u():
+    """Check URLs in the M3U file and comment out non-working ones."""
     with open(SOURCE_FILE, "r", encoding="utf-8") as file:
         lines = file.readlines()
 

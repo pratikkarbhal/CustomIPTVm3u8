@@ -1,37 +1,40 @@
-name: Check Video URLs
+name: Check and Update M3U Playlist
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight UTC
-  workflow_dispatch: # Allows manual trigger of the workflow
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:  # Allows manual triggering
 
 jobs:
-  check-urls:
+  update-playlist:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      # Step 1: Check out the repository
+      - name: Check out repository
         uses: actions/checkout@v3
 
+      # Step 2: Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: pip install requests
 
-      - name: Check Video URLs
+      # Step 4: Run the Python script to update the playlist
+      - name: Update playlist
         run: python check_urls.py
 
-      - name: Commit Changes
+      # Step 5: Commit and push changes back to the repository
+      - name: Commit and push changes
         run: |
-          git config --local user.name "GitHub Actions"
-          git config --local user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
           git add .
-          git commit -m "Comment out non-working video URLs" || echo "No changes to commit"
+          git commit -m "Updated playlist: Commented out non-working URLs"
           git push
         env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

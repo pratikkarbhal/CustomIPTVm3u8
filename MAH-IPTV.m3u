@@ -32,7 +32,7 @@ http://172.105.123.238:18002/play/a022
 
 #INF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Star_Pravah_2023.png/300px-Star_Pravah_2023.png" group-title="Entertainment", Star Pravah
 
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sun_Marathi.png" group-title="Entertainment", Sun Marathi
+#EXTINF:-1 tvg-aspect-ratio="4:3" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sun_Marathi.png" group-title="Entertainment", Sun Marathi
 http://172.105.123.238:18002/play/a007
 
 

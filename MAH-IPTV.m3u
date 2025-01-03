@@ -19,8 +19,8 @@ https://live-faktmarathi.akamaized.net/liveabr/playlist.m3u8
 http://172.105.123.238:18002/play/a00q
 #INF:-1 tvg-epgurl="https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=0" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
 
-#EXTINF:-1 tvg-aspect-ratio="16:9" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/n3qfEnXy.png" group-title="Entertainment",ZEE Chitra Mandir
-http://172.105.123.238:18002/play/a022
+#INF:-1 tvg-aspect-ratio="16:9" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/n3qfEnXy.png" group-title="Entertainment",ZEE Chitra Mandir
+
 #INF:-1 tvg-id="" tvg-name="Zee Yuva" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/GuTrwkfk.png" group-title="Entertainment",Zee Yuva
 
 
@@ -32,8 +32,8 @@ http://172.105.123.238:18002/play/a022
 
 #INF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Star_Pravah_2023.png/300px-Star_Pravah_2023.png" group-title="Entertainment", Star Pravah
 
-#EXTINF:-1 tvg-aspect-ratio="4:3" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sun_Marathi.png" group-title="Entertainment", Sun Marathi
-http://172.105.123.238:18002/play/a007
+#INF:-1 tvg-aspect-ratio="4:3" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sun_Marathi.png" group-title="Entertainment", Sun Marathi
+
 
 
 #EXTINF:-1 channel-id="1" tvg-id="INBC1500014OM" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Maiboli.png" group-title="Music" , Maiboli
@@ -43,8 +43,8 @@ https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SAB.png" group-title="Entertainment", Sony Sab
 http://tv.cloudcdn.me:80/live.ts?channelId=260&deviceMac=00:1A:79:0A:3B:2D
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_Wah.png" group-title="Entertainment", Sony Wah
-http://172.105.123.238:18002/play/a01q
+#INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_Wah.png" group-title="Entertainment", Sony Wah
+
 
 
 
@@ -60,18 +60,18 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 
 #INF:-1 tvg-id="andpictureshd.in" tvg-name="&pictures (4K)" tvg-logo="http://openboxv8s.com/india/and_pictures_in.jpg" group-title="Entertainment",&pictures
 
-#EXTINF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/IGpUNiVm.png", STAR GOLD THRILLS
-http://172.105.123.238:18002/play/a01h
-#EXTINF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/cV57fNkg.png", Star Utsav Movies
-http://172.105.123.238:18002/play/a01n
+#INF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/IGpUNiVm.png", STAR GOLD THRILLS
+
+#INF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/cV57fNkg.png", Star Utsav Movies
+
 
 
 
 
 #INF:-1 tvg-id="INBD13000205L" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD13000205L_20231115T014715SQUARE.png_20231115014716.png" group-title="Kids" , Cartoon Network
 
-#INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Discovery_Kids_2.png" group-title="Kids", Discovery Kids
-
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Discovery_Kids_2.png" group-title="Kids", Discovery Kids
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-india-nursery-rhymes-and-baby-songs/d045a385-2755-4a0e-9c26-914386206e1f/0.m3u8
 
 #EXTINF:-1 tvg-id="DroneTV" tvg-name="DroneTV Shorts" tvg-logo="https://cdn.airvuz.com/assets/header/airvuz-drone-logo.png" group-title="Infotainment", DroneTV Shorts
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/440.m3u8

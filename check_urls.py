@@ -1,36 +1,23 @@
 import requests
 
+# File containing M3U links
 SOURCE_FILE = "MAH-IPTV.m3u"
-TIMEOUT = 15
+TIMEOUT = 15  # slightly increased timeout
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
 }
 
 def is_url_working(url):
-    """Check if the URL is reachable and follow redirects to validate final URL."""
+    """Check if the given URL is reachable using a lightweight GET request."""
     try:
         response = requests.get(url, headers=HEADERS, stream=True, timeout=TIMEOUT, allow_redirects=True)
-        final_url = response.url
-        status_ok = 200 <= response.status_code < 400
-        content_type = response.headers.get("Content-Type", "")
-
-        # Optional: Add logic to detect if it's a streaming resource
-        if (".m3u8" in final_url or "mpegurl" in content_type.lower() or "video" in content_type.lower()) and status_ok:
-            print(f"✅ Stream detected: {final_url}")
-            return True
-        elif status_ok:
-            print(f"ℹ️ Final URL looks valid (but not clear if it's a stream): {final_url}")
-            return True
-        else:
-            print(f"❌ Not working: {url}")
-            return False
-
-    except requests.RequestException as e:
-        print(f"❌ Exception for {url}: {e}")
+        return 200 <= response.status_code < 400
+    except requests.RequestException:
         return False
 
 def check_and_update_m3u():
+    """Check URLs in the M3U file and comment out non-working ones."""
     with open(SOURCE_FILE, "r", encoding="utf-8") as file:
         lines = file.readlines()
 
@@ -47,10 +34,12 @@ def check_and_update_m3u():
         if line.startswith("http://") or line.startswith("https://"):
             url = line
             if is_url_working(url):
+                print(f"✅ Working: {url}")
                 if last_metadata_line:
                     updated_lines.append(last_metadata_line + "\n")
                 updated_lines.append(url + "\n")
             else:
+                print(f"❌ Not working: {url}")
                 if last_metadata_line:
                     updated_lines.append("## " + last_metadata_line + "\n")
                 updated_lines.append("## " + url + "\n")

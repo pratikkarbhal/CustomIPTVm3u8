@@ -106,8 +106,8 @@ https://wildearth-plex.amagi.tv/masterR1080p.m3u8
 #INF:-1 tvg-logo="https://i.postimg.cc/DzZsrvqk/love-nature.png" group-title="Documentary", Love Nature 4K
 https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 
-#INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Animal_Planet_HD.png" group-title="Infotainment", Animal Planet HD
-
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Animal_Planet_HD.png" group-title="Infotainment", Animal Planet HD
+https://cc-qgrxgp51645lw.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-qgrxgp51645lw/IQJW/WBD/WildFlix_IN/WildFlix_IN.m3u8
 #INF:-1 tvg-logo="https://i.postimg.cc/Hx1PS8kS/XBz4I65.png" group-title="Documentary", Discovery Science
 
 #INF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/UyI5ljKM.png" group-title="Infotainment", Discovery HD

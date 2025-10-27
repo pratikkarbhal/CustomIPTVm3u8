@@ -82,8 +82,8 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=6640
 https://watchmojo-1-eu.xiaomi.wurl.tv/playlist.m3u8
 #INF:-1 tvg-id="RT" tvg-name="Rotten Tomatoes" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5b/Rotten_Tomatoes.svg" group-title="Infotainment", Rotten Tomatoes YouTube
 
-#INF:-1 tvg-id="HistoryTV" tvg-name="HistoryTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/1200px-History_Logo.svg.png" group-title="Infotainment", HistoryTV 365
-
+#EXTINF:-1 tvg-id="HistoryTV" tvg-name="HistoryTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/1200px-History_Logo.svg.png" group-title="Infotainment", HistoryTV
+https://dym0m3hpk8pit.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-twag9lr2sgbxc/History_and_Warfare_CA.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/62/Modern_Marvels_title_credits.jpg" group-title="Infotainment", Modern Marvels
 https://debzvrwex1ip7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-59uqfidguq5ol/v1/aenetworks_modernmarvels_2/samsungheadend_ca/latest/main/hls/playlist.m3u8
 #INF:-1 tvg-logo="https://i.postimg.cc/ZqbG8DVf/download-4.jpg" group-title="Documentary", Discovery Turbo

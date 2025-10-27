@@ -60,8 +60,8 @@ https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c
 https://nh-runntv-blyflx.cdn.runn.tv/nhstdz/stream/blyflx/playlist.m3u8
 #EXTINF:-1 tvg-id="Shemaroo Bollywood" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/shemaroobollywood.png" group-title="Movies",Shemaroo Bollywood
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/master.m3u8
-#INF:-1 tvg-id="zeecinemaindiahd.in" tvg-name="ZEE CINEMA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Zee_Cinema_logo.png" group-title="Entertainment",ZEE CINEMA
-
+#EXTINF:-1 tvg-id="zeecinemaindiahd.in" tvg-name="ZEE CINEMA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Zee_Cinema_logo.png" group-title="Entertainment",ZEE CINEMA
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=6640
 #INF:-1 tvg-id="andpictureshd.in" tvg-name="&pictures (4K)" tvg-logo="http://openboxv8s.com/india/and_pictures_in.jpg" group-title="Entertainment",&pictures
 
 #INF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/IGpUNiVm.png", STAR GOLD THRILLS

@@ -15,7 +15,9 @@ https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8
 https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
 
 
-#EXTINF:-1 tvg-id="Sahyadri" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Shemaroo_MarathiBana.png" group-title="Entertainment",सह्याद्री 
+#EXTINF:-1 tvg-id="Sahyadri" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Shemaroo_MarathiBana.png" group-title="Entertainment",मराठीबाणा
+https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Sahyadri" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DD_Sahayadri.png" group-title="Entertainment",DD सह्याद्री 
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/66dcc3ebe182447ba42837e746cf0c7c/index.m3u8
 #INF:-1 tvg-id="FaktMarathi.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Fakt_Marathi.png" group-title="Entertainment",फक्त मराठी
 

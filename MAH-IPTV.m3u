@@ -72,8 +72,8 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=6640
 
 
 
-#INF:-1 tvg-id="INBD13000205L" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD13000205L_20231115T014715SQUARE.png_20231115014716.png" group-title="Kids" , Cartoon Network
-
+#EXTINF:-1 tvg-id="INBD13000205L" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD13000205L_20231115T014715SQUARE.png_20231115014716.png" group-title="Kids" , Cartoon Network
+https://live20.bozztv.com/giatvplayout7/giatv-210728/index.m3u8
 #INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Discovery_Kids_2.png" group-title="Kids", Discovery Kids
 
 #INF:-1 tvg-id="DroneTV" tvg-name="DroneTV Shorts" tvg-logo="https://cdn.airvuz.com/assets/header/airvuz-drone-logo.png" group-title="Infotainment", DroneTV Shorts

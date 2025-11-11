@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="default-epg-generator">
+  <channel id="News18Lokmat.in">
+    <display-name>News18 लोकमत</display-name>
+  </channel>
+  <channel id="ABPMajha.in">
+    <display-name>ABP माझा</display-name>
+  </channel>
+  <channel id="NDTV_Marathi">
+    <display-name>NDTV मराठी</display-name>
+  </channel>
+  <channel id="Lokshahi">
+    <display-name>लोकशाही मराठी</display-name>
+  </channel>
+  <channel id="JaiMaharashtra">
+    <display-name>जय महराष्ट्र न्यूज</display-name>
+  </channel>
+  <channel id="TV9Marathi">
+    <display-name>TV9 मराठी</display-name>
+  </channel>
+  <channel id="Zee24Taas">
+    <display-name>झी २४तास</display-name>
+  </channel>
+  <channel id="Shemaroo_MarathiBana">
+    <display-name>मराठीबाणा</display-name>
+  </channel>
+  <channel id="DDSahyadri">
+    <display-name>DD सह्याद्री</display-name>
+  </channel>
+  <channel id="Maiboli">
+    <display-name>Maiboli</display-name>
+  </channel>
+  <channel id="9XJhakaas.in">
+    <display-name>9x Jhakaas</display-name>
+  </channel>
+  <channel id="BollywoodHD">
+    <display-name>Bollywood HD</display-name>
+  </channel>
+  <channel id="BollyFlix">
+    <display-name>Bolly Flix</display-name>
+  </channel>
+  <channel id="ZEE_CINEMA">
+    <display-name>ZEE CINEMA</display-name>
+  </channel>
+  <channel id="StarUtsavMovies">
+    <display-name>Star Utsav Movies</display-name>
+  </channel>
+  <channel id="WatchMojo">
+    <display-name>Watch Mojo YouTube</display-name>
+  </channel>
+  <channel id="HistoryTV">
+    <display-name>HistoryTV</display-name>
+  </channel>
+  <channel id="DiscoveryTurbo">
+    <display-name>Discovery Turbo</display-name>
+  </channel>
+  <channel id="RedBullTV">
+    <display-name>Red Bull TV</display-name>
+  </channel>
+  <channel id="PowerNationTV">
+    <display-name>PowerNation TV</display-name>
+  </channel>
+  <channel id="MotorVision">
+    <display-name>MotorVision</display-name>
+  </channel>
+  <channel id="4KTravel">
+    <display-name>4K Travel</display-name>
+  </channel>
+  <channel id="AdventureEarth">
+    <display-name>Adventure Earth</display-name>
+  </channel>
+  <channel id="LoveNature4K">
+    <display-name>Love Nature 4K</display-name>
+  </channel>
+  <channel id="Xplore">
+    <display-name>Xplore</display-name>
+  </channel>
+  <channel id="AnimalPlanetHD">
+    <display-name>Animal Planet HD</display-name>
+  </channel>
+
+  <!-- one 24-hour programme per channel -->
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="News18Lokmat.in">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="ABPMajha.in">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="NDTV_Marathi">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="Lokshahi">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="JaiMaharashtra">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="TV9Marathi">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="Zee24Taas">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="Shemaroo_MarathiBana">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="DDSahyadri">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="Maiboli">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="9XJhakaas.in">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="BollywoodHD">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="BollyFlix">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="ZEE_CINEMA">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="StarUtsavMovies">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="WatchMojo">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="HistoryTV">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="DiscoveryTurbo">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="RedBullTV">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="PowerNationTV">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="MotorVision">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="4KTravel">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="AdventureEarth">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="LoveNature4K">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="Xplore">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+  <programme start="20251111000000 +0530" stop="20251111235959 +0530" channel="AnimalPlanetHD">
+    <title lang="en">Click to view</title>
+    <desc lang="en">Default placeholder — no EPG available. Click to view program details.</desc>
+  </programme>
+</tv>

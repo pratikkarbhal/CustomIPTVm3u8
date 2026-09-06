@@ -23,7 +23,7 @@ jobs:
           python-version: "3.11"
 
       - name: Run stream checker
-        run: python check_streams.py playlist.m3u --good working.m3u --bad dead.log
+        run: python check_streams.py MAH-IPTV.m3u --good working.m3u --bad dead.log
 
       - name: Commit results
         run: |

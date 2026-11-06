@@ -1,3 +1,1 @@
-Only for educational purposes...
-
-auto-update url workflow in progresssssssss
+Curated list, for personal use only 

@@ -19,7 +19,7 @@ https://server.livelegitpro.in/jaimaharashtratv/jaimaharashtratv/index.fmp4.m3u8
 https://rt-india.rttv.com/dvr/rtindia/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="ZeeTalkies.in" tvg-epgurl="https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=0" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
+#EXTINF:-1 tvg-id="ZeeTalkies.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
 https://httpstat.us
 #EXTINF:-1 tvg-id="ZeeChitraMandir.in" tvg-aspect-ratio="16:9" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/n3qfEnXy.png" group-title="Entertainment",ZEE Chitra Mandir
 https://httpstat.us
@@ -27,7 +27,7 @@ https://httpstat.us
 https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="FaktMarathi.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Fakt_Marathi.png" group-title="Entertainment", Fakt Marathi
 https://httpstat.us
-#EXTINF:-1 tvg-id="ZeeYuva.in"tvg-id="" tvg-name="Zee Yuva" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/GuTrwkfk.png" group-title="Entertainment",Zee Yuva
+#EXTINF:-1 tvg-id="ZeeYuva.in" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/GuTrwkfk.png" group-title="Entertainment",Zee Yuva
 https://httpstat.us
 #EXTINF:-1 tvg-id="DDSahyadri.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DD_Sahayadri.png" group-title="Entertainment", DD Sahyadri
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/66dcc3ebe182447ba42837e746cf0c7c/index.m3u8
@@ -39,7 +39,7 @@ https://httpstat.us
 https://httpstat.us
 #EXTINF:-1 tvg-id="ColorsMarathi.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_Marathi_HD.png" group-title="Entertainment", Colors Marathi HD
 https://httpstat.us
-#EXTINF:-1 tvg-id="SonyMarathi.in" tvg-name="Sony Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_Marathi_SD.png" group-title="Entertainment",Sony Marathi
+#EXTINF:-1 tvg-id="SonyMarathi.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_Marathi_SD.png" group-title="Entertainment",Sony Marathi
 https://httpstat.us
 #EXTINF:-1 tvg-id="9XJhakaas.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/9x_Jhakaas.png" group-title="Music",9x Jhakaas
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8

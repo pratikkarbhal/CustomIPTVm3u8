@@ -27,6 +27,13 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Validate project configuration
+        run: |
+          python -m json.tool config/channels.json > /dev/null
+          python -m json.tool config/settings.json > /dev/null
+          python -m json.tool config/channel_overrides.json > /dev/null
+          python scripts/generate_epg.py --validate-config
+
       - name: Generate XMLTV guide
         run: python scripts/generate_epg.py
 

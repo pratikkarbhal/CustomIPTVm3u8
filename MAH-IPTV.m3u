@@ -82,8 +82,6 @@ http://103.135.253.32:8080/ZEE-CINEMA/index.m3u8
 https://livetv.shamon-cable.net:8443/StarGold/index.m3u8
 #EXTINF:-1 tvg-id="Andpictures.in",&pictures
 http://103.135.253.32:8080/PICTURE-HD/index.m3u8
-#EXTINF:-1 tvg-id="Goldmines.in",Goldmines
-https://tvsen6.aynaott.com/hKrngve2/index.m3u8
 
 
 #EXTINF:-1 tvg-id="GreenGoldTV.in",Green Gold TV

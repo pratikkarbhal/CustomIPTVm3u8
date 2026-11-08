@@ -13,7 +13,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 PLAYLIST = "MAH-IPTV.m3u"   # file in this repo, or a full https:// link to a playlist
-SITES = ["jiotv.com", "airtelxstream.in"]   # priority order, first = preferred
+SITES = ["dishtv.in", "airtelxstream.in"]   # priority order, first = preferred
 TOOL_DIR = "epg-tool"
 OUTPUT = "guide.xml"
 DAYS = 3

@@ -20,27 +20,27 @@ https://rt-india.rttv.com/dvr/rtindia/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id="ZeeTalkies.in" tvg-epgurl="https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=0" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
-
+https://httpstat.us
 #EXTINF:-1 tvg-id="ZeeChitraMandir.in" tvg-aspect-ratio="16:9" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/n3qfEnXy.png" group-title="Entertainment",ZEE Chitra Mandir
-
+https://httpstat.us
 #EXTINF:-1 tvg-id="ShemarooMarathiBana.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Shemaroo_MarathiBana.png" group-title="Entertainment", Shemaroo Marathi bana
 https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="FaktMarathi.in" tvg-id="FaktMarathi.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Fakt_Marathi.png" group-title="Entertainment", Fakt Marathi
-
+https://httpstat.us
 #EXTINF:-1 tvg-id="ZeeYuva.in"tvg-id="" tvg-name="Zee Yuva" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/GuTrwkfk.png" group-title="Entertainment",Zee Yuva
-
+https://httpstat.us
 #EXTINF:-1 tvg-id="DDSahyadri.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DD_Sahayadri.png" group-title="Entertainment", DD Sahyadri
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/66dcc3ebe182447ba42837e746cf0c7c/index.m3u8
 #EXTINF:-1 tvg-id="SunMarathi.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sun_Marathi.png",Sun Marathi
-
+https://httpstat.us
 #EXTINF:-1 tvg-id="ZeeMarathi.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi
-
+https://httpstat.us
 #EXTINF:-1 tvg-id="StarPravah.in" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Star_Pravah_2023.png/300px-Star_Pravah_2023.png" group-title="Entertainment", Star Pravah
-
+https://httpstat.us
 #EXTINF:-1 tvg-id="ColorsMarathi.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_Marathi_HD.png" group-title="Entertainment", Colors Marathi HD
-
+https://httpstat.us
 #EXTINF:-1 tvg-id="SonyMarathi.in" tvg-id="" tvg-name="Sony Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_Marathi_SD.png" group-title="Entertainment",Sony Marathi
-
+https://httpstat.us
 #EXTINF:-1 tvg-id="9XJhakaas.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/9x_Jhakaas.png" group-title="Music",9x Jhakaas
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
 
@@ -57,7 +57,7 @@ https://amg00862-amg00862c7-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-a
 #EXTINF:-1 tvg-id="SonyPal.in",Sony Pal
 http://59.103.38.46:8000/play/a0ac/index.m3u8
 #EXTINF:-1 tvg-id="SonyWah.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_Wah.png" group-title="Entertainment", Sony Wah
-
+https://httpstat.us
 #EXTINF:-1 tvg-id="SonySAB.in",Sony SAB
 https://drk6xq0vhn.gpcdn.net/live/sub_hd_abr/index.m3u8
 #EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in",Sony Entertainment Television
@@ -69,7 +69,7 @@ https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-a
 
 
 #EXTINF:-1  tvg-id="ShemarooBollywood.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/shemaroobollywood.png" group-title="Movies",Shemaroo Bollywood
-
+https://httpstat.us
 #EXTINF:-1 tvg-id="B4UMovies.in",B4U Movies
 http://66.102.126.10:8000/play/a01n/index.m3u8
 #EXTINF:-1 tvg-id="B4UKadak.in",B4U Kadak

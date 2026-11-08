@@ -2,7 +2,7 @@ name: Update guide
 
 on:
   schedule:
-    - cron: "30 2 * * *"   # daily at 02:30 UTC, after the playlist update
+    - cron: "0 3 */2 * *"   # 2 days at 02:30 UTC, after the playlist update
   workflow_dispatch:
 
 permissions:

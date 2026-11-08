@@ -7,12 +7,13 @@ Workflow
 1. Put your channel names in  playlist_names.txt  (the list you pasted; '#' lines are ignored,
    a leading '!' or '=' is stripped, 'A | B | C' means aliases of one channel).
 
-2. python build_epg.py --discover
-      Downloads Jio's channel list, fuzzy-matches your names to Jio channel IDs and writes
+2. python build_epg.py --discover   [--channels-file jio_channels.json]
+      Downloads Jio's channel list (or reads a copy you saved from your browser), fuzzy-matches your names to Jio channel IDs and writes
       channels.json.  OPEN IT AND REVIEW: low-confidence matches get "jio_id": null with a
       "suggestion" field.  Fix by hand (set jio_id) or leave null to skip that channel.
 
-3. python build_epg.py
+3. python build_epg.py [--m3u my.m3u]
+      With --m3u, the guide uses the tvg-id values already in your playlist (e.g. ABPMajha.in).
       Fetches the guide for every mapped channel and writes guide.xml (+ guide.xml.gz).
       Options: --days 3  (today + next 2 days)   --back 1  (also yesterday)
 
@@ -35,10 +36,12 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 from xml.sax.saxutils import escape
 
-CHANNEL_LIST_URL = (
+CHANNEL_LIST_URLS = [
     "https://jiotv.data.cdn.jio.com/apis/v3.0/getMobileChannelList/get/"
-    "?os=android&devicetype=phone&usertype=tvYR7NSNn7rymo3F"
-)
+    "?os=android&devicetype=phone&usertype=tvYR7NSNn7rymo3F",
+    "https://jiotvapi.cdn.jio.com/apis/v3.0/getMobileChannelList/get/"
+    "?os=android&devicetype=phone&usertype=tvYR7NSNn7rymo3F",
+]
 # First one is the URL you found in DevTools; second is a fallback host.
 EPG_URLS = [
     "https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id={id}&offset={off}",
@@ -74,8 +77,13 @@ def norm(name):
     return re.sub(r"[^a-z0-9]", "", n)
 
 
-def slug(name):
-    return re.sub(r"[^a-z0-9]+", "-", name.lower().replace("&", "and")).strip("-")
+def slug(name, country="in"):
+    """iptv-org style channel ID: name without spaces/symbols + '.' + country code.
+    'Saam TV' -> 'SaamTV.in', 'TV9 Marathi' -> 'TV9Marathi.in', '&pictures' -> 'AndPictures.in'"""
+    name = name.replace("&", " And ")
+    words = re.findall(r"[A-Za-z0-9]+", name)
+    joined = "".join(w if (w.isupper() or any(c.isupper() for c in w[1:])) else w[0].upper() + w[1:] for w in words)
+    return f"{joined}.{country}"
 
 
 def parse_names(path):
@@ -102,13 +110,41 @@ def xmltv_time(epoch_ms):
 
 
 # ----------------------------------------------------------------- step 1: discover
-def discover():
+def extract_channels(data):
+    """Accept the API response in several shapes -> list of {channel_id, channel_name}."""
+    if isinstance(data, dict):
+        for key in ("result", "channels", "data"):
+            if isinstance(data.get(key), list):
+                data = data[key]
+                break
+    if not isinstance(data, list):
+        sys.exit("Could not find a channel list in that JSON (expected a list with channel_id/channel_name).")
+    return [c for c in data if isinstance(c, dict) and "channel_id" in c and "channel_name" in c]
+
+
+def load_jio_channels(channels_file):
+    if channels_file:
+        print(f"Reading Jio channel list from {channels_file} ...")
+        return extract_channels(json.loads(Path(channels_file).read_text(encoding="utf-8")))
+    print("Fetching Jio channel list ...")
+    last = None
+    for url in CHANNEL_LIST_URLS:
+        try:
+            return extract_channels(get_json(url, tries=2))
+        except Exception as e:  # noqa: BLE001
+            last = e
+            print(f"  ! {url.split('/apis')[0]} failed: {e}", file=sys.stderr)
+    sys.exit(f"Could not download the channel list ({last}).\n"
+             "Save it from your browser instead and use:  python build_epg.py --discover --channels-file jio_channels.json")
+
+
+def discover(channels_file=None):
     if not NAMES_FILE.exists():
         sys.exit(f"Create {NAMES_FILE} first (paste your channel list into it).")
-    print("Fetching Jio channel list ...")
-    jio = get_json(CHANNEL_LIST_URL).get("result", [])
-    Path("jio_channels.json").write_text(json.dumps(jio, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"  {len(jio)} Jio channels (saved to jio_channels.json for manual lookup)")
+    jio = load_jio_channels(channels_file)
+    if not channels_file:
+        Path("jio_channels.json").write_text(json.dumps(jio, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"  {len(jio)} Jio channels")
 
     jio_norm = [(norm(c["channel_name"]), c) for c in jio]
     mapping, review = {}, []
@@ -157,11 +193,49 @@ def fetch_day(job):
     return name, []
 
 
-def build(days, back):
+def ids_from_m3u(path):
+    """norm(channel name) -> [tvg-id, ...] as already written in your playlist."""
+    lookup = {}
+    for line in Path(path).read_text(encoding="utf-8").splitlines():
+        if not line.startswith("#EXTINF"):
+            continue
+        m = re.search(r'tvg-id="([^"]+)"', line)
+        if not m:
+            continue
+        names = [line.rsplit(",", 1)[-1].strip()]
+        n2 = re.search(r'tvg-name="([^"]+)"', line)
+        if n2:
+            names.append(n2.group(1))
+        for nm in names:
+            ids = lookup.setdefault(norm(nm), [])
+            if m.group(1) not in ids:
+                ids.append(m.group(1))
+    return lookup
+
+
+def build(days, back, m3u=None):
     if not MAP_FILE.exists():
         sys.exit("channels.json not found - run with --discover first.")
     mapping = json.loads(MAP_FILE.read_text(encoding="utf-8"))
     active = {n: e for n, e in mapping.items() if e.get("jio_id")}
+    for e in active.values():
+        e["_ids"] = [e["tvg_id"]]
+    if m3u:
+        lookup = ids_from_m3u(m3u)
+        missing = []
+        for n, e in active.items():
+            found = []
+            for a in e["aliases"]:
+                for i in lookup.get(norm(a), []):
+                    if i not in found:
+                        found.append(i)
+            if found:
+                e["_ids"] = found
+            else:
+                missing.append(n)
+        print(f"Used tvg-ids from {m3u} for {len(active) - len(missing)}/{len(active)} channels")
+        if missing:
+            print("  No tvg-id found in the playlist for:", ", ".join(missing), file=sys.stderr)
     offsets = list(range(-back, days))
     jobs = [(n, e["jio_id"], off) for n, e in active.items() for off in offsets]
     print(f"Fetching {len(jobs)} requests ({len(active)} channels x {len(offsets)} days) ...")
@@ -175,23 +249,25 @@ def build(days, back):
 
     out = ['<?xml version="1.0" encoding="UTF-8"?>', '<tv generator-info-name="jio-epg-builder">']
     for n, e in active.items():
-        out.append(f'<channel id="{xml_text(e["tvg_id"])}"><display-name>{xml_text(n)}</display-name>'
-                   + "".join(f"<display-name>{xml_text(a)}</display-name>" for a in e["aliases"][1:])
-                   + "</channel>")
+        for cid in e["_ids"]:
+            out.append(f'<channel id="{xml_text(cid)}"><display-name>{xml_text(n)}</display-name>'
+                       + "".join(f"<display-name>{xml_text(a)}</display-name>" for a in e["aliases"][1:])
+                       + "</channel>")
     total = 0
     for n, e in active.items():
         for start in sorted(progs[n]):
             it = progs[n][start]
             title = it.get("showname") or "Unknown"
             desc = it.get("episode_desc") or it.get("description") or ""
-            out.append(f'<programme start="{xmltv_time(it["startEpoch"])}" '
-                       f'stop="{xmltv_time(it["endEpoch"])}" channel="{xml_text(e["tvg_id"])}">')
-            out.append(f"<title>{xml_text(title)}</title>")
-            if desc and desc != title:
-                out.append(f"<desc>{xml_text(desc)}</desc>")
-            for g in it.get("showGenre") or []:
-                out.append(f"<category>{xml_text(g)}</category>")
-            out.append("</programme>")
+            for cid in e["_ids"]:
+                out.append(f'<programme start="{xmltv_time(it["startEpoch"])}" '
+                           f'stop="{xmltv_time(it["endEpoch"])}" channel="{xml_text(cid)}">')
+                out.append(f"<title>{xml_text(title)}</title>")
+                if desc and desc != title:
+                    out.append(f"<desc>{xml_text(desc)}</desc>")
+                for g in it.get("showGenre") or []:
+                    out.append(f"<category>{xml_text(g)}</category>")
+                out.append("</programme>")
             total += 1
     out.append("</tv>")
     xml = "\n".join(out)
@@ -231,13 +307,17 @@ def patch_m3u(src, dst):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--discover", action="store_true", help="match your names to Jio channel IDs")
+    ap.add_argument("--channels-file", metavar="FILE",
+                    help="with --discover: read the Jio channel list from this saved JSON file instead of downloading it")
+    ap.add_argument("--m3u", metavar="FILE",
+                    help="use the tvg-id values already in this playlist as the guide channel ids")
     ap.add_argument("--days", type=int, default=2, help="days to fetch starting today (default 2)")
     ap.add_argument("--back", type=int, default=0, help="also fetch N past days (default 0)")
     ap.add_argument("--patch-m3u", nargs=2, metavar=("IN", "OUT"), help="add tvg-id to an M3U")
     a = ap.parse_args()
     if a.discover:
-        discover()
+        discover(a.channels_file)
     elif a.patch_m3u:
         patch_m3u(*a.patch_m3u)
     else:
-        build(a.days, a.back)
+        build(a.days, a.back, a.m3u)

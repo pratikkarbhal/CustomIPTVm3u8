@@ -1,0 +1,55 @@
+name: Update guide2
+
+on:
+  schedule:
+    - cron: "30 2 * * *"   # daily at 02:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  guide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+
+      - name: Checkout iptv-org EPG tool
+        uses: actions/checkout@v4
+        with:
+          repository: iptv-org/epg
+          ref: master
+          path: epg-tool
+          fetch-depth: 1
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install EPG tool
+        working-directory: epg-tool
+        run: npm install
+
+      - name: Build guide
+        run: python build_guide.py
+
+      - name: Check guide has programmes
+        run: grep -q "<programme" guide.xml
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add guide.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "Update guide"
+            git pull --rebase
+            git push
+          fi

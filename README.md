@@ -1,6 +1,7 @@
 Curated list, for personal use only 
 
 # CustomIPTVm3u8 - Guide (EPG)
+[![Update guide](https://github.com/pratikkarbhal/CustomIPTVm3u8/actions/workflows/update-guide2.yml/badge.svg?event=workflow_run)](https://github.com/pratikkarbhal/CustomIPTVm3u8/actions/workflows/update-guide2.yml)
 
 Program guide for the channels in `playlist.m3u`. It updates itself daily.
 

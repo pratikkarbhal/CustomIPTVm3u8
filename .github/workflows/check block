@@ -1,0 +1,45 @@
+name: Check Jio block
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Jio from GitHub's servers
+        run: |
+          set +e
+          URL1="https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id=612&offset=0"
+          URL2="https://jiotv.data.cdn.jio.com/apis/v1.3/getepg/get/?offset=0&channel_id=612"
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+
+          echo "=== Where is this runner? ==="
+          curl -s --max-time 15 https://ipinfo.io/json | grep -E '"(ip|city|region|country|org)"'
+          echo
+
+          ok=0
+          try() {
+            label="$1"; shift
+            code=$(curl -sS -o /tmp/body -w "%{http_code}" --max-time 25 "$@" 2>/tmp/err)
+            echo "[$code] $label"
+            [ -s /tmp/err ] && echo "   curl error: $(cat /tmp/err)"
+            echo "   body: $(head -c 150 /tmp/body | tr '\n' ' ')"
+            if [ "$code" = "200" ] && grep -q '"epg"' /tmp/body; then ok=1; fi
+          }
+
+          echo "=== Requests ==="
+          try "jiotvapi host, plain"                     "$URL1"
+          try "jiotvapi host, browser-like headers"      -H "User-Agent: $UA" -H "Referer: https://www.jiotv.com/" -H "Origin: https://www.jiotv.com" "$URL1"
+          try "jiotv.data host, plain"                   "$URL2"
+          try "jiotv.data host, browser-like headers"    -H "User-Agent: $UA" -H "Referer: https://www.jiotv.com/" -H "Origin: https://www.jiotv.com" "$URL2"
+          try "jiotvapi host, IPv4 only, browser headers" -4 -H "User-Agent: $UA" -H "Referer: https://www.jiotv.com/" "$URL1"
+
+          echo
+          if [ "$ok" = "1" ]; then
+            VERDICT="WORKS - at least one request returned guide data. The daily workflow can work."
+          else
+            VERDICT="BLOCKED - Jio refuses GitHub's servers, even with browser-like headers. Build the guide from your own PC/phone instead."
+          fi
+          echo "VERDICT: $VERDICT"
+          echo "### $VERDICT" >> "$GITHUB_STEP_SUMMARY"

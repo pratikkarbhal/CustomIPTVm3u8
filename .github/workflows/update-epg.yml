@@ -1,0 +1,44 @@
+name: Update EPG
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every 6 hours, India time. GitHub may delay scheduled jobs during busy periods.
+    - cron: "17 */6 * * *"
+      timezone: "Asia/Kolkata"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: epg-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate XMLTV guide
+        run: python scripts/generate_epg.py
+
+      - name: Commit updated EPG and reports
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/ reports/
+          if git diff --cached --quiet; then
+            echo "No EPG or report changes to commit."
+          else
+            git commit -m "Update EPG feed"
+            git push
+          fi

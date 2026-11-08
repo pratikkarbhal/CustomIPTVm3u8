@@ -64,16 +64,10 @@ https://drk6xq0vhn.gpcdn.net/live/sub_hd_abr/index.m3u8
 http://38.96.178.205/SONYHD/index.m3u8
 #EXTINF:-1 tvg-id="ZeeSouthFlix.in",Zee South Flix
 https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeCineClassic.in",Zee Cine Classic
-https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8
 
 
 #EXTINF:-1  tvg-id="ShemarooBollywood.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/shemaroobollywood.png" group-title="Movies",Shemaroo Bollywood
 https://httpstat.us
-#EXTINF:-1 tvg-id="B4UMovies.in",B4U Movies
-http://66.102.126.10:8000/play/a01n/index.m3u8
-#EXTINF:-1 tvg-id="B4UKadak.in",B4U Kadak
-https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ColorsCineplex.in",Colors Cineplex
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8
 #EXTINF:-1 tvg-id="ColorsCineplexBollywood.in",Colors Cineplex Bollywood
@@ -108,8 +102,6 @@ http://66.102.126.10:8000/play/a013/index.m3u8
 http://103.185.24.134:3001/SONIC/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryKids.in",Discovery Kids
 https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8
-#EXTINF:-1 tvg-id="FoodFood.in",Food Food
-https://cdn.pishow.tv/ott/live/267/master.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.in",Discovery Channel
 https://drk6xq0vhn.gpcdn.net/live/discovery_sd_abr/index.m3u8
 #EXTINF:-1 tvg-id="AnimalPlanet.in",Animal Planet

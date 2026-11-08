@@ -1,0 +1,41 @@
+name: Discover channels
+
+on:
+  workflow_dispatch:
+    inputs:
+      overwrite:
+        description: "Overwrite existing channels.json (this loses any manual edits)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refuse to overwrite manual edits
+        if: ${{ !inputs.overwrite }}
+        run: |
+          if [ -f channels.json ]; then
+            echo "channels.json already exists. Re-run with 'overwrite' ticked if you really want to replace it."
+            exit 1
+          fi
+
+      - name: Match playlist names to Jio channels
+        run: python build_epg.py --discover
+
+      - name: Commit channels.json
+        run: |
+          git config user.name "epg-bot"
+          git config user.email "epg-bot@users.noreply.github.com"
+          git add channels.json jio_channels.json
+          git commit -m "Add channel mapping" || echo "Nothing to commit"
+          git push

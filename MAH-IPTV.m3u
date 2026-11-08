@@ -49,30 +49,53 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="SangeetMarathi.in@SD",Sangeet Marathi (576p)
 https://mumt07.tangotv.in/zHjX9OFlSANGEETMARATHI/index.m3u8
 
-#INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SAB.png" group-title="Entertainment", Sony Sab
 
-#INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_Wah.png" group-title="Entertainment", Sony Wah
-
-
-
-
-
-#EXTINF:-1 tvg-id="BollywoodHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/39/Bollywood_HD_2018.png" group-title="Movies",Bollywood HD
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/43e99595-3ab3-4f82-a828-0d32dc308c98/0.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Bollywood_Clasic.png" group-title="Movies",Bolly Flix
-https://nh-runntv-blyflx.cdn.runn.tv/nhstdz/stream/blyflx/playlist.m3u8
-#INF:-1 tvg-id="Shemaroo Bollywood" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/shemaroobollywood.png" group-title="Movies",Shemaroo Bollywood
-
-#EXTINF:-1 tvg-id="zeecinemaindiahd.in" tvg-name="ZEE CINEMA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Zee_Cinema_logo.png" group-title="Entertainment", Zee Cinema
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=6640
-#INF:-1 tvg-id="andpictureshd.in" tvg-name="&pictures (4K)" tvg-logo="http://openboxv8s.com/india/and_pictures_in.jpg" group-title="Entertainment",&pictures
-
-#INF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/IGpUNiVm.png", STAR GOLD THRILLS
-
-#EXTINF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/cV57fNkg.png", Star Utsav Movies
+#EXTINF:-1 tvg-id="ZeeComedyNation.in@HD",Zee Comedy Nation (1080p)
+https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0173/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeHorrorNights.in@HD",Zee Horror Nights (1080p)
 https://amg00862-amg00862c7-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c7-amgplt0173/playlist.m3u8
+#EXTINF:-1 tvg-id="SonyPal.in@SD",Sony Pal
+http://59.103.38.46:8000/play/a0ac/index.m3u8
+#INF:-1 tvg-id="SonyWah.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_Wah.png" group-title="Entertainment", Sony Wah
 
+#EXTINF:-1 tvg-id="SonySAB.in@SD",Sony SAB
+https://drk6xq0vhn.gpcdn.net/live/sub_hd_abr/index.m3u8
+#EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD",Sony Entertainment Television
+http://38.96.178.205/SONYHD/index.m3u8
+#EXTINF:-1 tvg-id="ZeeSouthFlix.in@HD",Zee South Flix
+https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeCineClassic.in@SD",Zee Cine Classic (1080p)
+https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8
+
+
+#INF:-1  tvg-id="ShemarooBollywood.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/shemaroobollywood.png" group-title="Movies",Shemaroo Bollywood
+
+#EXTINF:-1 tvg-id="B4UMovies.in@India",B4U Movies
+http://66.102.126.10:8000/play/a01n/index.m3u8
+#EXTINF:-1 tvg-id="B4UKadak.in@SD",B4U Kadak
+https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ColorsCineplex.in@SD",Colors Cineplex
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8
+#EXTINF:-1 tvg-id="ColorsCineplexBollywood.in@SD",Colors Cineplex Bollywood
+http://163.61.226.31:9981/stream/channelid/1709941389?profile=pass
+#EXTINF:-1 tvg-id="ColorsCineplexSuperhits.in@SD",Colors Cineplex Superhits
+http://163.61.226.31:9981/stream/channelid/2039746374?profile=pass
+#EXTINF:-1 tvg-id="SonyMax.in@HD",Sony Max
+http://103.135.253.32:8080/Sony-Max-HD/index.m3u8
+#EXTINF:-1 tvg-id="ZeeCinema.in@HD",Zee Cinema
+http://103.135.253.32:8080/ZEE-CINEMA/index.m3u8
+#EXTINF:-1 tvg-id="StarGold.in@HD",Star Gold
+https://livetv.shamon-cable.net:8443/StarGold/index.m3u8
+#EXTINF:-1 tvg-id="Andpictures.in@HD",&pictures
+http://103.135.253.32:8080/PICTURE-HD/index.m3u8
+#EXTINF:-1 tvg-id="Goldmines.in@SD",Goldmines
+https://tvsen6.aynaott.com/hKrngve2/index.m3u8
+
+
+#EXTINF:-1 tvg-id="GreenGoldTV.in@India",Green Gold TV
+https://cc-szrmqvu8zkg16.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-szrmqvu8zkg16/greengold/stream/grngld/playlist.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.in@SD",Cartoon Network
+https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
 
 
 

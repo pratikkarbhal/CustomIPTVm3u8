@@ -1,0 +1,76 @@
+Channels not included in the current EPG feed
+================================================
+
+- [Marathi news] ABP Majha: unmatched — not found in Jio channel catalogue
+- [Marathi news] Saam TV: unmatched — not found in Jio channel catalogue
+- [Marathi news] News18 Marathi: unmatched — not found in Jio channel catalogue
+- [Marathi news] NDTV Marathi: unmatched — not found in Jio channel catalogue
+- [Marathi news] TV9 Marathi: unmatched — not found in Jio channel catalogue
+- [Marathi news] Zee 24 Tass: unmatched — not found in Jio channel catalogue
+- [Marathi news] Lokshahi News: unmatched — not found in Jio channel catalogue
+- [Marathi news] Jai Maharashtra: unmatched — not found in Jio channel catalogue
+- [Marathi news] RT India: unmatched — not found in Jio channel catalogue
+- [Marathi movies] Zee Talkies: api_error — offset 0: All EPG endpoints failed for this offset. https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=0: Request failed after 3 attempt(s): https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=0: HTTP Error 450: Forbidden | https://jiotv.data.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=0: Request failed after 3 attempt(s): https://jiotv.data.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=0: HTTP Error 450: Forbidden; offset 1: All EPG endpoints failed for this offset. https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=1: Request failed after 3 attempt(s): https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=1: HTTP Error 450: Forbidden | https://jiotv.data.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=1: Request failed after 3 attempt(s): https://jiotv.data.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=1: HTTP Error 450: Forbidden
+- [Marathi movies] ZEE Chitra Mandir: unmatched — not found in Jio channel catalogue
+- [Marathi entertainment] Shemaroo Marathi Bana: unmatched — not found in Jio channel catalogue
+- [Marathi entertainment] Fakt Marathi: unmatched — not found in Jio channel catalogue
+- [Marathi entertainment] Zee Yuva: unmatched — not found in Jio channel catalogue
+- [Marathi entertainment] DD Sahyadri: unmatched — not found in Jio channel catalogue
+- [Marathi entertainment] Sun Marathi: unmatched — not found in Jio channel catalogue
+- [Marathi entertainment] Zee Marathi: unmatched — not found in Jio channel catalogue
+- [Marathi entertainment] Star Pravah: unmatched — not found in Jio channel catalogue
+- [Marathi entertainment] Colors Marathi: unmatched — not found in Jio channel catalogue
+- [Marathi entertainment] Sony Marathi: unmatched — not found in Jio channel catalogue
+- [Marathi songs] 9x Jhakaas: unmatched — not found in Jio channel catalogue
+- [Marathi songs] Maiboli: unmatched — not found in Jio channel catalogue
+- [Marathi songs] Sangeet Marathi: unmatched — not found in Jio channel catalogue
+- [Hindi entertainment] Zee Comedy Nation: unmatched — not found in Jio channel catalogue
+- [Hindi entertainment] Zee Horror Nights: unmatched — not found in Jio channel catalogue
+- [Hindi entertainment] Sony Pal: unmatched — not found in Jio channel catalogue
+- [Hindi entertainment] Sony Wah: unmatched — not found in Jio channel catalogue
+- [Hindi entertainment] Sony Sab: unmatched — not found in Jio channel catalogue
+- [Hindi entertainment] Sony Entertainment Television: unmatched — not found in Jio channel catalogue
+- [Hindi entertainment] Zee South Flix: unmatched — not found in Jio channel catalogue
+- [Hindi entertainment] Zee Cine Classic: unmatched — not found in Jio channel catalogue
+- [Hindi movies] Shemaroo Bollywood: unmatched — not found in Jio channel catalogue
+- [Hindi movies] B4U Movies: unmatched — not found in Jio channel catalogue
+- [Hindi movies] B4U Kadak: unmatched — not found in Jio channel catalogue
+- [Hindi movies] Colors Cineplex: unmatched — not found in Jio channel catalogue
+- [Hindi movies] Colors Cineplex Bollywood: unmatched — not found in Jio channel catalogue
+- [Hindi movies] Colors Cineplex Superhits: unmatched — not found in Jio channel catalogue
+- [Hindi movies] Sony Max: unmatched — not found in Jio channel catalogue
+- [Hindi movies] Zee Cinema: unmatched — not found in Jio channel catalogue
+- [Hindi movies] Star Gold: unmatched — not found in Jio channel catalogue
+- [Hindi movies] &pictures: unmatched — not found in Jio channel catalogue
+- [Hindi movies] Goldmines: unmatched — not found in Jio channel catalogue
+- [kids] Green Gold TV: unmatched — not found in Jio channel catalogue
+- [kids] Cartoon Network: unmatched — not found in Jio channel catalogue
+- [kids] Pogo: unmatched — not found in Jio channel catalogue
+- [kids] Hungama TV: unmatched — not found in Jio channel catalogue
+- [kids] Nickelodeon: unmatched — not found in Jio channel catalogue
+- [kids] Disney Channel: unmatched — not found in Jio channel catalogue
+- [kids] Sonic: unmatched — not found in Jio channel catalogue
+- [kids] Discovery Kids: unmatched — not found in Jio channel catalogue
+- [kids] Mr Bean Animated: unmatched — not found in Jio channel catalogue
+- [Infotainment] Xplore: unmatched — not found in Jio channel catalogue
+- [Infotainment] Food Food: unmatched — not found in Jio channel catalogue
+- [Infotainment] INWILD: unmatched — not found in Jio channel catalogue
+- [Infotainment] Discovery Channel: unmatched — not found in Jio channel catalogue
+- [Infotainment] Animal Planet: unmatched — not found in Jio channel catalogue
+- [Infotainment] Adventure Earth: unmatched — not found in Jio channel catalogue
+- [Infotainment] Sony BBC Earth: unmatched — not found in Jio channel catalogue
+- [Infotainment] BBC Earth US: unmatched — not found in Jio channel catalogue
+- [Infotainment] BBC Earth: unmatched — not found in Jio channel catalogue
+- [Infotainment] History TV18: unmatched — not found in Jio channel catalogue
+- [Infotainment] Modern Marvels: unmatched — not found in Jio channel catalogue
+- [Infotainment] Discovery Turbo: unmatched — not found in Jio channel catalogue
+- [Infotainment] Discovery Science: unmatched — not found in Jio channel catalogue
+- [Extras] MotorVision: unmatched — not found in Jio channel catalogue
+- [Extras] PowerNation: unmatched — not found in Jio channel catalogue
+- [Extras] Star Movies: unmatched — not found in Jio channel catalogue
+- [Extras] Sony Pix: unmatched — not found in Jio channel catalogue
+- [Extras] Warner TV: unmatched — not found in Jio channel catalogue
+- [Extras] HBO: unmatched — not found in Jio channel catalogue
+- [Extras] Red Bull: unmatched — not found in Jio channel catalogue
+- [Extras] Watch Mojo: unmatched — not found in Jio channel catalogue
+- [Extras] InWonder: unmatched — not found in Jio channel catalogue
